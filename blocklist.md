@@ -4,7 +4,7 @@ layout: default
 
 ## vulpine.club instance blocklist
 
-- Last updated: 2018-09-09
+- Last updated: 2018-09-10
 - [Edit history for this document](https://github.com/vulpineclub/vulpineclub.github.io/commits/master/blocklist.md)
 - Some explanatory links require being logged into vulpine.club to view
 
@@ -13,29 +13,20 @@ Domain                  | Severity          | Date          | Why
 `shitposter.club`       | suspend           |               | haven for harassment
 `freezepeach.xyz`       | suspend           |               | haven for harassment
 `sealion.club`          | suspend           |               | haven for harassment
-`social.heldscal.la`    | suspend           |               | haven for harassment
-`wogan.im`              | suspend           |               | single-user instance violating our CoC
 `noagendasocial.com`    | suspend           |               | podcast dudebro brigade, no CoC, admin violations of our CoC
 `social.tchncs.de`      | suspend           |               | CoC not enforced (harasser still present after multiple reports/incidents)
-`ediot.social`          | suspend           |               | [their CoC pretty much covers it](http://ediot.social/about/more)
-`anitwitter.moe`        | silence           |               | incompatible terms of service
 `mastodon.elmit.com`    | silence           |               | appears to be a spam haven?
-`gs.kawa-kun.com`       | silence/nomedia   |               | freeze peach haven
-`gs.smuglo.li`          | silence/nomedia   |               | freeze peach haven
 `pl.smuglo.li`          | silence/nomedia   |               | freeze peach haven
-`libertarianism.club`   | silence           |               | block evasion
 `social.tekk.in`        | silence           |               | freezepeachers
 `masto.targaryen.house` | silence           | unknown       | block evasion
 `mastodon.blue`         | silence           | unknown       | freezepeach haven
 `p2px.me`               | silence           | unknown       | asshat ratio too high
 `niu.moe`               | silence           | unknown       | asshat ratio too high
-`npf.mlpol.net`         | silence           | unknown       | <span title="npf = nazi pony fuckers">kinda right there in the name</span>
 `counter.social`        | suspend           | unknown       | yeah how about no
 `social.miwilc.com`     | suspend           | unknown       | block evasion
 `2.distsn.org`          | suspend           | 2018-01-01    | [runs a bot that scrapes user data](https://vulpine.club/@mxsparks_afterlight/99274660598169903)
 `masto.quad.moe`        | suspend           | 2018-01-07    | [asshat/racist ratio too high (including admin previously banned from m.s)](https://vulpine.club/@mxsparks_afterlight/99311739060004510)
 `baraag.net`            | silence/nomedia   | 2018-02-28    | [permits posting of artwork which is not legal in vulpine.club's legal jurisdiction](https://vulpine.club/@rey/99604671628655129)
-`kyot.me`               | silence           | 2018-02-28    | [freezepeach instance](https://vulpine.club/@rey/99604699064341474)
 `gay.nsfw.onl`          | silence/nomedia   | 2018-05-06    | untagged porn w/ public visibility
 `pleroma.rareome.ga`    | suspend           | 2018-06-06    | [instance does not honor blocks or privacy settings](https://vulpine.club/@rey/100160366521490428)
 `mastodon.macsnet.cz`   | silence           | 2018-08-29    | [CoC violations by instance admin](https://vulpine.club/@mxsparks_afterlight/100636565192006998)
