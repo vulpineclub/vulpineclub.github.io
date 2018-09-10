@@ -61,7 +61,7 @@ Domain                  | Severity          | Date          | Why
     </dd>
     <dt>data mining</dt>
     <dd>
-        Intent to "collect all the posts" and create searchable collections for data mining, either explicit or clearly apparent. This is normally facilitated with *followbots*.
+        Intent to "collect all the posts" and create searchable collections for data mining, either explicit or clearly apparent. This is normally facilitated with <strong>followbots</strong>.
     </dd>
     <dt>followbots</dt>
     <dd>
@@ -69,11 +69,11 @@ Domain                  | Severity          | Date          | Why
     </dd>
     <dt>freezepeach</dt>
     <dd>
-        A prioritization of free speech above all. This is neither [required or even recommended by the US Constitution](https://www.law.cornell.edu/constitution/first_amendment) nor is it condusive to healthy online communities, as it tends to create environments where shock value, drummed-up outrage, and sheer posting volume are the only ways to be heard.
+        A prioritization of free speech above all. This is neither <a href="https://www.law.cornell.edu/constitution/first_amendment">required or even recommended by the US Constitution</a> nor is it condusive to healthy online communities, as it tends to create environments where shock value, drummed-up outrage, and sheer posting volume are the only ways to be heard.
     </dd>
     <dt>harassment</dt>
     <dd>
-        An instance where targetted harassment is known to originate, and where the moderators turn a blind eye to it. Often related to *freezepeach*.
+        An instance where targetted harassment is known to originate, and where the moderators turn a blind eye to it. Often related to <strong>freezepeach</strong>.
     </dd>
     <dt>illegal images</dt>
     <dd>
