@@ -40,3 +40,14 @@ Domain | Severity | Date | Why
 `bofa.lol` | suspend | 2018-09-03 | targeted harassment by admin
 `raki.social` | suspend | 2018-09-06 | followbots / data mining
 `pawoo.net` | nomedia | 2018-09-09 | permits posting of artwork that violates vulpine.club's ToS
+
+### Severity legend
+
+**nomedia**  
+Media files from the server are not stored and therefore not displayed. Can be coupled with the `silence` severity.
+
+**silence**  
+Accounts from the server can still be found, followed and interacted with, however, toots from the server do not appear in the public timelines, and notifications don't reach local users unless that user follows the author.
+
+**suspend**  
+No content from the server is stored or displayed, no communication with the server is possible.
