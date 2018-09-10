@@ -2,9 +2,10 @@
 layout: default
 ---
 
-## Last update: 2018/09/09
+## vulpine.club instance blocklist
 
-[Edit history for this page](https://github.com/vulpineclub/vulpineclub.github.io/commits/master/blocklist.md)
+- Last updated: 2018-09-09
+- [Edit history for this document](https://github.com/vulpineclub/vulpineclub.github.io/commits/master/blocklist.md)
 
 Domain                  | Severity          | Date          | Why
 ------                  | --------          | ----          | ---
