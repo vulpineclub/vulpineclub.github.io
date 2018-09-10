@@ -2,11 +2,11 @@
 layout: default
 ---
 
-## Vulpine Club Documentation
+## Vulpine Club Documentation Portal
+
+### Information for Members
 
 - [Blocked Instances list](/blocklist)
-
-## Quick Links
 
 - [vulpine.club](https://vulpine.club/)
     - Alternate links
@@ -18,6 +18,8 @@ layout: default
 
 - [Custom Emoji List](https://emojos.in/vulpine.club)
 
+### Information for Admins
+
 - Development
   - Fork health
     - [CircleCI status](https://circleci.com/gh/vulpineclub)
@@ -28,6 +30,4 @@ layout: default
     - Deployments via the [production branch](https://github.com/vulpineclub/mastodon/tree/production) are [tagged with `prod-*` tags](https://github.com/vulpineclub/mastodon/tags)
     - [Docker Hub builds](https://hub.docker.com/r/vulpineclub/mastodon/builds/)
 
-## Fox
-
-![oopsfox](https://vulpine.club/oops.gif)
+![fox sketch](/img/foxsketch.png)
