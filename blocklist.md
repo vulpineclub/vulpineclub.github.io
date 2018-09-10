@@ -47,17 +47,34 @@ Domain                  | Severity          | Date          | Why
 
 ### Severity legend
 
-**nomedia**  
-Media files from the server are not stored and therefore not displayed. Can be coupled with the 'silence' severity.
-
-**silence**  
-Accounts from the server can still be found, followed and interacted with, however, toots from the server do not appear in the public timelines, and notifications don't reach local users unless that user follows the author.
-
-**suspend**  
-No content from the server is stored or displayed, no communication with the server is possible.
+<dl>
+    <dt>nomedia</dt>
+    <dd>
+        Media files from the server are not stored and therefore not displayed. Can be coupled with the 'silence' severity.
+    </dd>
+    <dt>silence</dt>
+    <dd>
+        Accounts from the server can still be found, followed and interacted with, however, toots from the server do not appear in the public timelines, and notifications don't reach local users unless that user follows the author.
+    </dd>
+    <dt>suspend</dt>
+    <dd>
+        No content from the server is stored or displayed, no communication with the server is possible.
+    </dd>
+</dl>
 
 ### Common shorthand
 
-- **data mining**: Intent to "collect all the posts" and create searchable collections for data mining, either explicit or clearly apparent. This is normally achieved with followbots.
-- **followbots**: Accounts which are following a very large number of accounts across multiple instances. We will typically suspend these accounts individually when reported.
-- **freezepeach**: A prioritization of free speech above all. This is neither [required or even recommended by the US Constitution](https://www.law.cornell.edu/constitution/first_amendment) nor is it condusive to healthy online communities, as it tends to create environments where shock value, drummed-up outrage, and sheer posting volume are the only ways to be heard.
+<dl>
+    <dt>data mining</dt>
+    <dd>
+        Intent to "collect all the posts" and create searchable collections for data mining, either explicit or clearly apparent. This is normally achieved with followbots.
+    </dd>
+    <dt>followbots</dt>
+    <dd>
+        Accounts which are following a very large number of accounts across multiple instances. We will typically suspend these accounts individually when reported.
+    </dd>
+    <dt>freezepeach</dt>
+    <dd>
+        A prioritization of free speech above all. This is neither [required or even recommended by the US Constitution](https://www.law.cornell.edu/constitution/first_amendment) nor is it condusive to healthy online communities, as it tends to create environments where shock value, drummed-up outrage, and sheer posting volume are the only ways to be heard.
+    </dd>
+</dl>
