@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Last update: 2018/09/09
 
 Domain | Severity | Why
