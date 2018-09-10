@@ -14,7 +14,6 @@ Domain                  | Severity          | Date          | Why
 `freezepeach.xyz`       | suspend           |               | haven for harassment
 `sealion.club`          | suspend           |               | haven for harassment
 `noagendasocial.com`    | suspend           |               | podcast dudebro brigade, no CoC, admin violations of our CoC
-`social.tchncs.de`      | suspend           |               | CoC not enforced (harasser still present after multiple reports/incidents)
 `pl.smuglo.li`          | silence/nomedia   |               | freeze peach haven
 `p2px.me`               | silence           | unknown       | asshat ratio too high
 `niu.moe`               | silence           | unknown       | asshat ratio too high
