@@ -23,10 +23,12 @@ layout: default
 - Development
   - Fork health
     - [CircleCI status](https://circleci.com/gh/vulpineclub)
-    - [glitch-soc:master -> vulpineclub:master-glitchsoc](https://github.com/vulpineclub/mastodon/compare/master-glitchsoc...glitch-soc:master)
-    - [vulpineclub:master -> vulpineclub:master-glitchsoc](https://github.com/vulpineclub/mastodon/compare/master-glitchsoc...vulpineclub:master)
-    - [vulpineclub:master -> vulpineclub:production](https://github.com/vulpineclub/mastodon/compare/production...vulpineclub:master)
+    - inbound from glitchsoc: [glitch-soc:master -> vulpineclub:master-glitchsoc](https://github.com/vulpineclub/mastodon/compare/master-glitchsoc...glitch-soc:master)
+    - glitchsoc->master merge queue: [vulpineclub:master-glitchsoc -> vulpineclub:master](https://github.com/vulpineclub/mastodon/compare/master...vulpineclub:master-glitchsoc)
+    - production->master merge queue: [vulpineclub:production -> vulpineclub:master](https://github.com/vulpineclub/mastodon/compare/master...vulpineclub:production)
+    - vulpineclub local commits: [vulpineclub:master -> vulpineclub:master-glitchsoc](https://github.com/vulpineclub/mastodon/compare/master-glitchsoc...vulpineclub:master)
   - Build automation
+    - [vulpineclub:master -> vulpineclub:production](https://github.com/vulpineclub/mastodon/compare/production...vulpineclub:master)
     - Deployments via the [production branch](https://github.com/vulpineclub/mastodon/tree/production) are [tagged with `prod-*` tags](https://github.com/vulpineclub/mastodon/tags)
     - [Docker Hub builds](https://hub.docker.com/r/vulpineclub/mastodon/builds/)
 
