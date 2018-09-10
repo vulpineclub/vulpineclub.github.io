@@ -6,6 +6,7 @@ layout: default
 
 - Last updated: 2018-09-09
 - [Edit history for this document](https://github.com/vulpineclub/vulpineclub.github.io/commits/master/blocklist.md)
+- Some explanatory links require being logged into vulpine.club to view
 
 Domain                  | Severity          | Date          | Why
 ------                  | --------          | ----          | ---
@@ -36,13 +37,13 @@ Domain                  | Severity          | Date          | Why
 `baraag.net`            | silence/nomedia   |               | permits posting of artwork which is not legal in vulpine.club's legal jurisdiction
 `kyot.me`               | silence           |               | freezepeach instance
 `gay.nsfw.onl`          | silence/nomedia   |               | untagged porn w/ public visibility
-`pleroma.rareome.ga`    | suspend           |               | instance does not honor blocks or privacy settings
-`mastodon.macsnet.cz`   | silence           |               | CoC violations by instance admin
-`melalandia.tk`         | suspend           |               | untagged loli porn w/ public visibility; freezepeach instance
-`weeaboo.space`         | suspend           |               | successor instance to masto.quad.moe (see above)
-`bofa.lol`              | suspend           | 2018-09-03    | targeted harassment by admin
-`raki.social`           | suspend           | 2018-09-06    | followbots / data mining
-`pawoo.net`             | nomedia           | 2018-09-09    | permits posting of artwork that violates vulpine.club's ToS
+`pleroma.rareome.ga`    | suspend           | 2018-06-06    | [instance does not honor blocks or privacy settings](https://vulpine.club/@rey/100160366521490428)
+`mastodon.macsnet.cz`   | silence           | 2018-08-29    | [CoC violations by instance admin](https://vulpine.club/@mxsparks_afterlight/100636565192006998)
+`melalandia.tk`         | suspend           | 2018-09-01    | [untagged loli porn w/ public visibility; freezepeach instance](https://vulpine.club/@rey/100653845596498076)
+`weeaboo.space`         | suspend           | 2018-09-02    | [successor instance to masto.quad.moe (see above)](https://vulpine.club/@mxsparks_afterlight/100656813050141179)
+`bofa.lol`              | suspend           | 2018-09-03    | [targeted harassment by admin](https://vulpine.club/@rey/100663007506556036)
+`raki.social`           | suspend           | 2018-09-06    | [followbots / data mining](https://vulpine.club/@rey/100681277977536254)
+`pawoo.net`             | nomedia           | 2018-09-09    | [permits posting of artwork that violates vulpine.club's ToS](https://vulpine.club/@mxsparks_afterlight/100697966306007701)
 
 ### Severity legend
 
