@@ -15,15 +15,10 @@ Domain                  | Severity          | Date          | Why
 `sealion.club`          | suspend           |               | haven for harassment
 `noagendasocial.com`    | suspend           |               | podcast dudebro brigade, no CoC, admin violations of our CoC
 `social.tchncs.de`      | suspend           |               | CoC not enforced (harasser still present after multiple reports/incidents)
-`mastodon.elmit.com`    | silence           |               | appears to be a spam haven?
 `pl.smuglo.li`          | silence/nomedia   |               | freeze peach haven
-`social.tekk.in`        | silence           |               | freezepeachers
-`masto.targaryen.house` | silence           | unknown       | block evasion
-`mastodon.blue`         | silence           | unknown       | freezepeach haven
 `p2px.me`               | silence           | unknown       | asshat ratio too high
 `niu.moe`               | silence           | unknown       | asshat ratio too high
 `counter.social`        | suspend           | unknown       | yeah how about no
-`social.miwilc.com`     | suspend           | unknown       | block evasion
 `2.distsn.org`          | suspend           | 2018-01-01    | [runs a bot that scrapes user data](https://vulpine.club/@mxsparks_afterlight/99274660598169903)
 `masto.quad.moe`        | suspend           | 2018-01-07    | [asshat/racist ratio too high (including admin previously banned from m.s)](https://vulpine.club/@mxsparks_afterlight/99311739060004510)
 `baraag.net`            | silence/nomedia   | 2018-02-28    | [permits posting of artwork which is not legal in vulpine.club's legal jurisdiction](https://vulpine.club/@rey/99604671628655129)
