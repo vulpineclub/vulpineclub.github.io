@@ -35,8 +35,8 @@ Domain                  | Severity          | Date          | Why
 `2.distsn.org`          | suspend           |               | runs a bot that scrapes user data
 `masto.quad.moe`        | suspend           |               | asshat/racist ratio too high (including admin previously banned from m.s)
 `baraag.net`            | silence/nomedia   |               | permits posting of artwork which is not legal in vulpine.club's legal jurisdiction
-`kyot.me`               | silence           |               | freezepeach instance
-`gay.nsfw.onl`          | silence/nomedia   |               | untagged porn w/ public visibility
+`kyot.me`               | silence           | 2018-02-28    | [freezepeach instance](https://vulpine.club/@rey/99604699064341474)
+`gay.nsfw.onl`          | silence/nomedia   | 2018-05-06    | untagged porn w/ public visibility
 `pleroma.rareome.ga`    | suspend           | 2018-06-06    | [instance does not honor blocks or privacy settings](https://vulpine.club/@rey/100160366521490428)
 `mastodon.macsnet.cz`   | silence           | 2018-08-29    | [CoC violations by instance admin](https://vulpine.club/@mxsparks_afterlight/100636565192006998)
 `melalandia.tk`         | suspend           | 2018-09-01    | [untagged loli porn w/ public visibility; freezepeach instance](https://vulpine.club/@rey/100653845596498076)
@@ -55,3 +55,9 @@ Accounts from the server can still be found, followed and interacted with, howev
 
 **suspend**  
 No content from the server is stored or displayed, no communication with the server is possible.
+
+### Common shorthand
+
+- **data mining**: Intent to "collect all the posts" and create searchable collections for data mining, either explicit or clearly apparent. This is normally achieved with followbots.
+- **followbots**: Accounts which are following a very large number of accounts across multiple instances. We will typically suspend these accounts individually when reported.
+- **freezepeach**: A prioritization of free speech above all. This is neither [required or even recommended by the US Constitution](https://www.law.cornell.edu/constitution/first_amendment) nor is it condusive to healthy online communities, as it tends to create environments where shock value, drummed-up outrage, and sheer posting volume are the only ways to be heard.
