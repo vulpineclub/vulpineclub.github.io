@@ -65,9 +65,17 @@ Domain                  | Severity          | Date          | Why
 ### Common shorthand
 
 <dl>
+    <dt>asshat ratio too high</dt>
+    <dd>
+        This is typically used to denote an instance that is overwhelming the federated timeline with a lot of low-quality posts. This is usually a temporary condition.
+    </dd>
+    <dt>ban/block evasion</dt>
+    <dd>
+        Instances that apparently exist because the admin has been banned from too many other instances, or blocked by too many users. Generally applied to single-user or very small instances.
+    </dd>
     <dt>data mining</dt>
     <dd>
-        Intent to "collect all the posts" and create searchable collections for data mining, either explicit or clearly apparent. This is normally achieved with followbots.
+        Intent to "collect all the posts" and create searchable collections for data mining, either explicit or clearly apparent. This is normally facilitated with *followbots*.
     </dd>
     <dt>followbots</dt>
     <dd>
@@ -76,5 +84,17 @@ Domain                  | Severity          | Date          | Why
     <dt>freezepeach</dt>
     <dd>
         A prioritization of free speech above all. This is neither [required or even recommended by the US Constitution](https://www.law.cornell.edu/constitution/first_amendment) nor is it condusive to healthy online communities, as it tends to create environments where shock value, drummed-up outrage, and sheer posting volume are the only ways to be heard.
+    </dd>
+    <dt>harassment</dt>
+    <dd>
+        An instance where targetted harassment is known to originate, and where the moderators turn a blind eye to it. Often related to *freezepeach*.
+    </dd>
+    <dt>illegal images</dt>
+    <dd>
+        Child pornography, including "simulated" child pornography. Typically, this is applied to instances known to post artwork with sexualized minors.
+    </dd>
+    <dt>untagged porn</dt>
+    <dd>
+        An instance which originates pornographic/adult/NSFW material without proper content warnings, visibility restrictions, etc.
     </dd>
 </dl>
