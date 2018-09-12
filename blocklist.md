@@ -29,6 +29,7 @@ Domain                  | Severity          | Date          | Why
 `bofa.lol`              | suspend           | 2018-09-03    | [targeted harassment by admin](https://vulpine.club/@rey/100663007506556036)
 `raki.social`           | suspend           | 2018-09-06    | [followbots / data mining](https://vulpine.club/@rey/100681277977536254)
 `pawoo.net`             | nomedia           | 2018-09-09    | [permits posting of artwork that violates vulpine.club's ToS](https://vulpine.club/@mxsparks_afterlight/100697966306007701)
+`freespeech.firedragonstudios.com` | suspend | 2018-09-12   | [freezepeach instance; CoC violations by instance admin](https://vulpine.club/@mxsparks_afterlight/100713513538253967)
 
 ### Severity legend
 
