@@ -7,8 +7,9 @@ layout: default
 ### Information for Members
 
 - [Blocked Instances list](/blocklist)
+- [Status page](/status)
 
-- [vulpine.club](https://vulpine.club/)
+- [vulpine.club main page](https://vulpine.club/)
     - Alternate links
       - Each of these will create its own login session, separate from the other alternate links or vulpine.club itself.
       - [0.vulpine.club](https://0.vulpine.club/)
