@@ -4,11 +4,6 @@ layout: default
 
 ## Vulpine Club Documentation Portal
 
-### Information for Members
-
-- [Blocked Instances list](/blocklist)
-- [Status page](/status)
-
 - [vulpine.club main page](https://vulpine.club/)
     - Alternate links
       - Each of these will create its own login session, separate from the other alternate links or vulpine.club itself.
@@ -17,7 +12,11 @@ layout: default
       - [2.vulpine.club](https://2.vulpine.club/)
       - [3.vulpine.club](https://3.vulpine.club/)
 
-- [Custom Emoji List](https://emojos.in/vulpine.club)
+### Information for Members
+
+- [Blocked Instances list](/blocklist)
+- [System status page](/status)
+- [Custom Emoji list](https://emojos.in/vulpine.club) (from emojos.in)
 
 ### Information for Admins
 
