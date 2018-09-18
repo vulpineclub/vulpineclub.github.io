@@ -4,20 +4,21 @@ layout: default
 
 ## vulpine.club instance blocklist
 
-- Last updated: 2018-09-10
-- [Edit history for this document](https://github.com/vulpineclub/vulpineclub.github.io/commits/master/blocklist.md)
-- Some explanatory links require being logged into vulpine.club to view
+- [Edit history for this document](https://github.com/vulpineclub/vulpineclub.github.io/commits/master/blocklist.md). Last updated:
+  2018-09-10
+- You may need to be logged into vulpine.club to view some of the "Why" links.
+- We generally do not use external blocklists. However, [dzuk's blocklist](https://github.com/dzuk-mutant/blockchain/) contains a lot of evidence and background information.
 
 Domain                  | Severity          | Date          | Why
 ------                  | --------          | ----          | ---
-`shitposter.club`       | suspend           |               | haven for harassment
-`freezepeach.xyz`       | suspend           |               | haven for harassment
-`sealion.club`          | suspend           |               | haven for harassment
-`noagendasocial.com`    | suspend           |               | podcast dudebro brigade, no CoC, admin violations of our CoC
-`pl.smuglo.li`          | silence/nomedia   |               | freeze peach haven
+`shitposter.club`       | suspend           | unknown       | haven for harassment
+`freezepeach.xyz`       | suspend           | unknown       | haven for harassment
+`sealion.club`          | suspend           | unknown       | haven for harassment
+`noagendasocial.com`    | suspend           | 2017-04-16    | [podcast dudebro brigade, no CoC, admin violations of our CoC](https://vulpine.club/@rey/87813)
+`pl.smuglo.li`          | silence/nomedia   | unknown       | freeze peach haven
 `p2px.me`               | silence           | unknown       | asshat ratio too high
 `niu.moe`               | silence           | unknown       | asshat ratio too high
-`counter.social`        | suspend           | unknown       | yeah how about no
+`counter.social`        | suspend           | unknown       | respecting their desire to have a safe space for <span title="White, Christian, Straight, and Pure of Foreign Influence">True Americans</span>. [dzuk link](https://github.com/dzuk-mutant/blockchain/blob/master/list/instances/counter_social/counter_social.md)
 `2.distsn.org`          | suspend           | 2018-01-01    | [runs a bot that scrapes user data](https://vulpine.club/@mxsparks_afterlight/99274660598169903)
 `masto.quad.moe`        | suspend           | 2018-01-07    | [asshat/racist ratio too high (including admin previously banned from m.s)](https://vulpine.club/@mxsparks_afterlight/99311739060004510)
 `baraag.net`            | silence/nomedia   | 2018-02-28    | [permits posting of artwork which is not legal in vulpine.club's legal jurisdiction](https://vulpine.club/@rey/99604671628655129)
