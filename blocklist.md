@@ -7,7 +7,7 @@ breadcrumb: ./
 ## vulpine.club instance blocklist
 
 - [Edit history for this document](https://github.com/vulpineclub/vulpineclub.github.io/commits/master/blocklist.md). Last updated:
-  2018-09-10
+  2018-09-23
 - You may need to be logged into vulpine.club to view some of the "Why" links.
 - We generally do not use external blocklists. However, [dzuk's blocklist](https://github.com/dzuk-mutant/blockchain/) contains a lot of evidence and background information.
 
@@ -33,6 +33,7 @@ Domain                  | Severity          | Date          | Why
 `raki.social`           | suspend           | 2018-09-06    | [followbots / data mining](https://vulpine.club/@rey/100681277977536254)
 `pawoo.net`             | nomedia           | 2018-09-09    | [permits posting of artwork that violates vulpine.club's ToS](https://vulpine.club/@mxsparks_afterlight/100697966306007701)
 `freespeech.firedragonstudios.com` | suspend | 2018-09-12   | [freezepeach instance; CoC violations by instance admin](https://vulpine.club/@mxsparks_afterlight/100713513538253967)
+`toot.love`             | suspend           | 2018-09-23    | [freezepeach instance](https://vulpine.club/@mxsparks_afterlight/100777434627353036)
 
 ### Severity legend
 
