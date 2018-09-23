@@ -16,5 +16,10 @@ Current production tag:
 ### Log
 
 - 2018-09-22 22:20 EDT: sidekiq queue backlogs relating to tasks hanging, with a possible bug. @rey is on it.
+  - Update #1 at 2018-09-22 23:15 EDT
+    - Summary: when trying to fetch https://fedi.jort.space/objects/e8314a88-d7bc-464f-a0ad-fece8292e49b it's seizing up both web workers and sidekiq workers. [#MastoAdmin thread](https://vulpine.club/@rey/100772757547660194)
+    - Symptoms: sidekiq jobs are busy for a long long time with traf to fedi.jort.space (like, I've had ones at the 2+ hour mark), and searching for that status URL via API or web UI hangs.
+    - Workaround: I am able to amelorate the issue by quieting then stopping the sidekiq processes via the sidekiq UI and letting them recycle, and also by doing `docker restart mastodon_web_x` to roll over the web workers.
+    - Next steps: Currently we are [missing these commits in production](https://github.com/vulpineclub/mastodon/compare/a29c2e6ed8694c432c538651616e35a1c096c1df...23e7c1c765f5e500d369fcef9f020e4eb5b337d5), so I am doing a build right now.
 - 2018-09-18 23:30 UTC: upgrade from prod-20180912-01 to prod-20180918-01
 - 2018-09-18 20:30 UTC: created this page
