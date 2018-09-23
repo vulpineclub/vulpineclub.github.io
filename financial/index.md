@@ -13,7 +13,7 @@ This page details some of the financials of vulpine.club.
 As of September 23, 2018, the forecasted operational expenses for vulpine.club are about $1200/yr, or $100/mo.
 
 - Namecheap: $11/yr
-  - vulpine.club: $11/yr
+  - vulpine.club domain registration: $11/yr
 - Linode: $50/mo -> $600/yr
   - Server (Linode 8GB): $40/mo
   - Backup Service: $10/mo
@@ -21,9 +21,10 @@ As of September 23, 2018, the forecasted operational expenses for vulpine.club a
   - S3: $12/mo
   - CloudFront: $36/mo
 - Mailgun: $0/mo
-  - Approx. 1700 e-mails per month (first 10,000 are free)
+  - First 10,000 e-mails per month are free
+  - E-mails: 1700/mo
 - Offsite backups: $0
-    Hourly rsync to a file server hosted in my apartment :)
+  - Hourly rsync to a file server hosted in my apartment :)
   - Server backups: 82 GB
   - Media backups: 64 GB
 
@@ -52,7 +53,7 @@ As of September 23, 2018, the forecasted operational expenses for vulpine.club a
     - AWS: $13.07
     - Linode: $25.00
   - 08
-      A sudden and significant increase in traffic, both local and fediverse-wide, occurred in mid-August and roughly doubled our baseline operational expenses.
+    - A sudden and significant increase in traffic, both local and fediverse-wide, occurred in mid-August and roughly doubled our baseline operational expenses.
     - AWS: $44.55
     - Linode: $39.90
 
