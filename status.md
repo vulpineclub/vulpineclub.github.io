@@ -24,8 +24,10 @@ Current production tag:
     - Shit was hard down for a bit.  `dockerd` was swelling and eventually the oom-killer took it out, which took out everything. Everything reset itself within about five minutes.  [#VulpineClub announcement](https://vulpine.club/@rey/100772965205981928)
   - Update #3 at 2018-09-23 00:00 EDT
     - Okay, somehow, that made everything better?  I have no idea.  Anyway, I'm deploying [prod-20180923-01](https://github.com/vulpineclub/mastodon/releases/tag/prod-20180923-01) in a few moments. We'll see how that goes.
-  - MONITORING at 2018-09-23 00:05 EDT: Things are holding together for right now. I'm going to do further testing, but I think the performance impacts are mitigated for now.
-  - Update #4 at 2018-09-23 00:30 EDT: Dumped all active connections a couple times over the last ten minutes while I reconfigured the timeouts on nginx.  It looks like what's happening is that the status in question causes the web worker to immediately spawn ffmpeg, which... then... hangs.
+  - MONITORING at 2018-09-23 00:05 EDT
+    - Things are holding together for right now. I'm going to do further testing, but I think the performance impacts are mitigated for now.
+  - Update #4 at 2018-09-23 00:30 EDT
+    - Dumped all active connections a couple times over the last ten minutes while I reconfigured the timeouts on nginx.  It looks like what's happening is that the status in question causes the web worker to immediately spawn ffmpeg, which... then... hangs.
 ```
 rtucker@smithwicks:~/vulpine.club/mastodon$ docker-compose logs -t --tail=500000 web | grep 27c502fe-1bff-423f-99b2-7eff4f4368a6
 web_1         | 2018-09-23T04:30:21.032433127Z [27c502fe-1bff-423f-99b2-7eff4f4368a6] [paperclip] Trying to link /tmp/8d777f385d3dfec8815d20f7496026dc20180923-29-qotnni to /tmp/8d777f385d3dfec8815d20f7496026dc20180923-29-1tatp3t.mp4
@@ -49,6 +51,7 @@ web_1         | 2018-09-23T04:30:21.257571879Z [27c502fe-1bff-423f-99b2-7eff4f43
 web_1         | 2018-09-23T04:30:21.257596194Z [27c502fe-1bff-423f-99b2-7eff4f4368a6] [AV] Running command: ffmpeg -i "/tmp/8d777f385d3dfec8815d20f7496026dc20180923-29-qotnni" -acodec aac -strict experimental -filter_complex "color=c=black:s=640x360,format=yuv420p[v]" -map "[v]" -map 0:a -threads 2 -vcodec libx264 -acodec aac -movflags +faststart -y "/tmp/8d777f385d3dfec8815d20f7496026dc20180923-29-qotnni20180923-29-1igq0gp.mp4"
 ```
 (ffmpeg is still running, 5 minutes later, but the web request timed out a long time ago)
-
+  - Update #5 at 2018-09-23 00:50 EDT
+    - Identified it as a side effect of a commit awhile back to improve audio processing efficiency. [This commit has been reverted](https://github.com/vulpineclub/mastodon/commit/d2e8762c5a211fe12ca276bd2d24b6a8e82f09b6) and [prod-20180923-02](https://github.com/vulpineclub/mastodon/releases/tag/prod-20180923-02) is building as we speak.
 - 2018-09-18 23:30 UTC: upgrade from prod-20180912-01 to prod-20180918-01
 - 2018-09-18 20:30 UTC: created this page
