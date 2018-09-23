@@ -17,6 +17,7 @@ layout: default
 - [Blocked Instances list](/blocklist)
 - [System status page](/status)
 - [Custom Emoji list](https://emojos.in/vulpine.club) (from emojos.in)
+- [Financial Information](/financial)
 
 ## Information for Admins
 
