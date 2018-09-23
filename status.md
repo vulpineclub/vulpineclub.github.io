@@ -15,6 +15,7 @@ Current production tag:
 
 ### Log
 
+- 2018-09-23 04:00 UTC: upgrade from prod-20180918-01 to prod-20180923-01
 - 2018-09-22 22:20 EDT: sidekiq queue backlogs relating to tasks hanging, with a possible bug. @rey is on it.
   - Update #1 at 2018-09-22 23:15 EDT
     - Summary: when trying to fetch https://fedi.jort.space/objects/e8314a88-d7bc-464f-a0ad-fece8292e49b it's seizing up both web workers and sidekiq workers. [#MastoAdmin thread](https://vulpine.club/@rey/100772757547660194)
