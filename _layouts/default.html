@@ -20,6 +20,9 @@
   <body>
       <div id="header">
         <nav>
+          {% if page.breadcrumb %}
+            <li class="fork"><a href="{{ page.breadcrumb }}">~back to previous page</a></li>
+          {% endif %}
           <li class="title">foxes are good and pure</li>
         </nav>
       </div><!-- end header -->
