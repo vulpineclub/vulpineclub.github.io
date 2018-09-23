@@ -1,5 +1,7 @@
 ---
 layout: default
+title: system otterational status
+breadcrumb: ../
 ---
 
 ## vulpine.club status

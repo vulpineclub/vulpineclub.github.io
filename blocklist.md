@@ -1,5 +1,7 @@
 ---
 layout: default
+title: instance blacklist
+breadcrumb: ./
 ---
 
 ## vulpine.club instance blocklist

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Vulpine Club Documentation Portal
+# Vulpine Club Documentation Portal
 
 - [vulpine.club main page](https://vulpine.club/)
     - Alternate links
@@ -12,13 +12,13 @@ layout: default
       - [2.vulpine.club](https://2.vulpine.club/)
       - [3.vulpine.club](https://3.vulpine.club/)
 
-### Information for Members
+## Information for Members
 
 - [Blocked Instances list](/blocklist)
 - [System status page](/status)
 - [Custom Emoji list](https://emojos.in/vulpine.club) (from emojos.in)
 
-### Information for Admins
+## Information for Admins
 
 - Development
   - Fork health
