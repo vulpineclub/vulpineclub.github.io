@@ -22,6 +22,8 @@ date and link should be omitted if unavailable
 -->
 
 {% assign blocks = site.data.blocks | sort: "date","first" %}
+{% assign newest_block = blocks | last %}
+
 {% capture blocktext %}
  {%- for block in blocks -%}
   {%- capture domaintext -%}
@@ -38,10 +40,15 @@ date and link should be omitted if unavailable
 
 ## vulpine.club instance blocklist
 
-- [Edit history for this document](https://github.com/vulpineclub/vulpineclub.github.io/commits/master/blocklist.md). Last updated:
-  2018-09-23
-- You may need to be logged into vulpine.club to view some of the "Why" links.
-- We generally do not use external blocklists. However, [dzuk's blocklist](https://github.com/dzuk-mutant/blockchain/) contains a lot of evidence and background information.
+- Statistics
+  - Total entries: {{ blocks.size }}
+  - Newest entry: {{ newest_block.date }}
+- Edit history
+  - [This document](https://github.com/vulpineclub/vulpineclub.github.io/commits/master/blocklist.md)
+  - [Blocklist data](https://github.com/vulpineclub/vulpineclub.github.io/commits/master/_data/blocks.yml)
+- Notes
+  - You may need to be logged into vulpine.club to view some of the "Why" links.
+  - We generally do not use external blocklists. However, [dzuk's blocklist](https://github.com/dzuk-mutant/blockchain/) contains a lot of evidence and background information.
 
 Domain | Severity | Date | Why
 -------|----------|------|-----
