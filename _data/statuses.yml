@@ -2,7 +2,9 @@
   severity: degraded performance
   summary: Rey pushed the wrong buttons and now has no idea which of the "production" images has the fix for the
            previous problem, cuz the tags got all f'd up. So we may or may not have the previous problem for the
-           next couple whiles. Whoops
+           next couple whiles. Whoops.
+           
+           - 19:30 - waiting for a Docker Hub build... [build details](https://hub.docker.com/r/vulpineclub/mastodon/builds/bv2zaw3q9yywle3jwif7bxv/)
   status: active
 
 - date: 2018-09-23 02:20:00 +0000
