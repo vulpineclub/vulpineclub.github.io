@@ -1,0 +1,110 @@
+- domain: shitposter.club
+  severity: suspend
+  reason: haven for harassment
+
+- domain: freezepeach.xyz
+  severity: suspend
+  reason: haven for harassment
+
+- domain: sealion.club
+  severity: suspend
+  reason: haven for harassment
+
+- domain: noagendasocial.com
+  severity: suspend
+  date: 2017-04-16
+  reason: podcast dudebro brigade, no CoC, admin violations of our CoC
+  link: https://vulpine.club/@rey/87813
+
+- domain: pl.smuglo.li
+  severity: silence/nomedia
+  reason: freeze peach haven
+
+- domain: p2px.me
+  severity: silence
+  reason: asshat ratio too high
+
+- domain: niu.moe
+  severity: silence
+  reason: asshat ratio too high
+
+- domain: counter.social
+  severity: suspend
+  reason: respecting their desire to have a safe space for <span title="White, Christian, Straight, and Pure of Foreign Influence">True Americans</span>. [dzuk link](https://github.com/dzuk-mutant/blockchain/blob/master/list/instances/counter_social/counter_social.md)
+
+- domain: 2.distsn.org
+  severity: suspend
+  date: 2018-01-01
+  reason: runs a bot that scrapes user data
+  link: https://vulpine.club/@mxsparks_afterlight/99274660598169903
+
+- domain: masto.quad.moe
+  severity: suspend
+  date: 2018-01-07
+  reason: asshat/racist ratio too high (including admin previously banned from m.s)
+  link: https://vulpine.club/@mxsparks_afterlight/99311739060004510
+
+- domain: baraag.net
+  severity: silence/nomedia
+  date: 2018-02-28
+  reason: permits posting of artwork which is not legal in vulpine.club's legal jurisdiction
+  link: https://vulpine.club/@rey/99604671628655129
+
+- domain: gay.nsfw.onl
+  severity: silence/nomedia
+  date: 2018-05-06
+  reason: untagged porn w/ public visibility
+
+- domain: pleroma.rareome.ga
+  severity: suspend
+  date: 2018-06-06
+  reason: instance does not honor blocks or privacy settings
+  link: https://vulpine.club/@rey/100160366521490428
+
+- domain: mastodon.macsnet.cz
+  severity: silence
+  date: 2018-08-29
+  reason: CoC violations by instance admin
+  link: https://vulpine.club/@mxsparks_afterlight/100636565192006998
+
+- domain: melalandia.tk
+  severity: suspend
+  date: 2018-09-01
+  reason: untagged loli porn w/ public visibility; freezepeach instance
+  link: https://vulpine.club/@rey/100653845596498076
+
+- domain: weeaboo.space
+  severity: suspend
+  date: 2018-09-02
+  reason: successor instance to masto.quad.moe (see above)
+  link: https://vulpine.club/@mxsparks_afterlight/100656813050141179
+
+- domain: bofa.lol
+  severity: suspend
+  date: 2018-09-03
+  reason: targeted harassment by admin
+  link: https://vulpine.club/@rey/100663007506556036
+
+- domain: raki.social
+  severity: suspend
+  date: 2018-09-06
+  reason: followbots / data mining
+  link: https://vulpine.club/@rey/100681277977536254
+
+- domain: pawoo.net
+  severity: nomedia
+  date: 2018-09-09
+  reason: permits posting of artwork that violates vulpine.club's ToS
+  link: https://vulpine.club/@mxsparks_afterlight/100697966306007701
+
+- domain: freespeech.firedragonstudios.com
+  severity: suspend
+  date: 2018-09-12
+  reason: freezepeach instance; CoC violations by instance admin
+  link: https://vulpine.club/@mxsparks_afterlight/100713513538253967
+
+- domain: toot.love
+  severity: suspend
+  date: 2018-09-23
+  reason: freezepeach instance
+  link: https://vulpine.club/@mxsparks_afterlight/100777434627353036

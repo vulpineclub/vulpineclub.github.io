@@ -4,6 +4,38 @@ title: instance blacklist
 breadcrumb: ./
 ---
 
+<!--
+To Add Entries to This List,
+You Should:
+
+Add them to _data/blocks.yml in this format:
+
+
+- domain: noagendasocial.com
+  severity: suspend
+  date: 2017-04-16
+  reason: podcast dudebro brigade, no CoC, admin violations of our CoC
+  link: https://vulpine.club/@rey/87813
+
+domain, severity, and reason are REQUIRED
+date and link should be omitted if unavailable
+-->
+
+{% assign blocks = site.data.blocks | sort: "date","first" %}
+{% capture blocktext %}
+ {%- for block in blocks -%}
+  {%- capture domaintext -%}
+    <span title="{{ block.domain }}">`{{ block.domain | truncate: 23 }}`</span>
+  {%- endcapture -%}
+
+  {%- capture reasontext -%}
+    {{ block.reason }}{% if block.link %}<br/><br/>[More information...]({{ block.link }}){% endif %}
+  {%- endcapture -%}
+
+  {{ domaintext }} | {{ block.severity }} | {{ block.date | default: "unknown" | date: "%Y&nbsp;%b&nbsp;%d" }} | {{ reasontext }}
+ {% endfor %}
+{% endcapture %}
+
 ## vulpine.club instance blocklist
 
 - [Edit history for this document](https://github.com/vulpineclub/vulpineclub.github.io/commits/master/blocklist.md). Last updated:
@@ -11,29 +43,9 @@ breadcrumb: ./
 - You may need to be logged into vulpine.club to view some of the "Why" links.
 - We generally do not use external blocklists. However, [dzuk's blocklist](https://github.com/dzuk-mutant/blockchain/) contains a lot of evidence and background information.
 
-Domain                  | Severity          | Date          | Why
-------                  | --------          | ----          | ---
-`shitposter.club`       | suspend           | unknown       | haven for harassment
-`freezepeach.xyz`       | suspend           | unknown       | haven for harassment
-`sealion.club`          | suspend           | unknown       | haven for harassment
-`noagendasocial.com`    | suspend           | 2017-04-16    | [podcast dudebro brigade, no CoC, admin violations of our CoC](https://vulpine.club/@rey/87813)
-`pl.smuglo.li`          | silence/nomedia   | unknown       | freeze peach haven
-`p2px.me`               | silence           | unknown       | asshat ratio too high
-`niu.moe`               | silence           | unknown       | asshat ratio too high
-`counter.social`        | suspend           | unknown       | respecting their desire to have a safe space for <span title="White, Christian, Straight, and Pure of Foreign Influence">True Americans</span>. [dzuk link](https://github.com/dzuk-mutant/blockchain/blob/master/list/instances/counter_social/counter_social.md)
-`2.distsn.org`          | suspend           | 2018-01-01    | [runs a bot that scrapes user data](https://vulpine.club/@mxsparks_afterlight/99274660598169903)
-`masto.quad.moe`        | suspend           | 2018-01-07    | [asshat/racist ratio too high (including admin previously banned from m.s)](https://vulpine.club/@mxsparks_afterlight/99311739060004510)
-`baraag.net`            | silence/nomedia   | 2018-02-28    | [permits posting of artwork which is not legal in vulpine.club's legal jurisdiction](https://vulpine.club/@rey/99604671628655129)
-`gay.nsfw.onl`          | silence/nomedia   | 2018-05-06    | untagged porn w/ public visibility
-`pleroma.rareome.ga`    | suspend           | 2018-06-06    | [instance does not honor blocks or privacy settings](https://vulpine.club/@rey/100160366521490428)
-`mastodon.macsnet.cz`   | silence           | 2018-08-29    | [CoC violations by instance admin](https://vulpine.club/@mxsparks_afterlight/100636565192006998)
-`melalandia.tk`         | suspend           | 2018-09-01    | [untagged loli porn w/ public visibility; freezepeach instance](https://vulpine.club/@rey/100653845596498076)
-`weeaboo.space`         | suspend           | 2018-09-02    | [successor instance to masto.quad.moe (see above)](https://vulpine.club/@mxsparks_afterlight/100656813050141179)
-`bofa.lol`              | suspend           | 2018-09-03    | [targeted harassment by admin](https://vulpine.club/@rey/100663007506556036)
-`raki.social`           | suspend           | 2018-09-06    | [followbots / data mining](https://vulpine.club/@rey/100681277977536254)
-`pawoo.net`             | nomedia           | 2018-09-09    | [permits posting of artwork that violates vulpine.club's ToS](https://vulpine.club/@mxsparks_afterlight/100697966306007701)
-`freespeech.firedragonstudios.com` | suspend | 2018-09-12   | [freezepeach instance; CoC violations by instance admin](https://vulpine.club/@mxsparks_afterlight/100713513538253967)
-`toot.love`             | suspend           | 2018-09-23    | [freezepeach instance](https://vulpine.club/@mxsparks_afterlight/100777434627353036)
+Domain | Severity | Date | Why
+-------|----------|------|-----
+{{ blocktext }}
 
 ### Severity legend
 
