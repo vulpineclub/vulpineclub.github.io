@@ -1,6 +1,7 @@
 ---
 layout: default
 title: system otterational status
+permalink: /status
 ---
 
 <!--
