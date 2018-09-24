@@ -1,2 +1,6 @@
 theme: jekyll-theme-midnight
 title: vulpine.club docs
+
+collections:
+  statuses:
+    output: true

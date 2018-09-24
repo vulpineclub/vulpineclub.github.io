@@ -1,0 +1,21 @@
+- date: 2018-09-23 02:20:00 +0000
+  severity: degraded performance
+  summary: Rey worked a queue backlog and resource exhaustion issue caused by an edge case in the processing of
+           certain media attachments. This problem was unique to vulpine.club.
+  incident: 2018-09-23-01
+
+- date: 2018-09-23 02:35:00 -0400
+  severity: upgrade
+  summary: upgrade from [prod-20180923-01 to prod-20180923-02](https://github.com/vulpineclub/mastodon/compare/prod-20180923-01...prod-20180923-02)
+
+- date: 2018-09-23 00:00:00 -0400
+  severity: upgrade
+  summary: upgrade from [prod-20180918-01 to prod-20180923-01](https://github.com/vulpineclub/mastodon/compare/prod-20180918-01...prod-20180923-01)
+
+- date: 2018-09-18 23:30:00 +0000
+  severity: upgrade
+  summary: upgrade from [prod-20180912-01 to prod-20180918-01](https://github.com/vulpineclub/mastodon/compare/prod-20180912-01...prod-20180918-01)
+
+- date: 2018-09-18 20:30:00 +0000
+  severity: informational
+  summary: created this page

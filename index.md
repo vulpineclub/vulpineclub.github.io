@@ -2,15 +2,18 @@
 layout: default
 ---
 
+{% capture statusbadge %}{% include statusbadge.md %}{% endcapture %}
+
 # Vulpine Club Documentation Portal
 
 - [vulpine.club main page](https://vulpine.club/)
-    - Alternate links
-      - Each of these will create its own login session, separate from the other alternate links or vulpine.club itself.
-      - [0.vulpine.club](https://0.vulpine.club/)
-      - [1.vulpine.club](https://1.vulpine.club/)
-      - [2.vulpine.club](https://2.vulpine.club/)
-      - [3.vulpine.club](https://3.vulpine.club/)
+  - Current status: {{ statusbadge }}
+  - Alternate links
+    - Each of these will create its own login session, separate from the other alternate links or vulpine.club itself.
+    - [0.vulpine.club](https://0.vulpine.club/)
+    - [1.vulpine.club](https://1.vulpine.club/)
+    - [2.vulpine.club](https://2.vulpine.club/)
+    - [3.vulpine.club](https://3.vulpine.club/)
 
 ## Information for Members
 
