@@ -5,6 +5,7 @@
            next couple whiles. Whoops.
            
            - 19:30 - waiting for a Docker Hub build... [build details](https://hub.docker.com/r/vulpineclub/mastodon/builds/bv2zaw3q9yywle3jwif7bxv/)
+           
            - 19:45 - queues seem pretty okay rn? the original thing that f'd it up was decreasing the sidekiq scale
              factor from 4 to 3. however, i bumped it back up to 4 and we're good. maybe it just needs to be 4.
              still gonna wait for the rebuild tho; dirty builds sketch me out.
