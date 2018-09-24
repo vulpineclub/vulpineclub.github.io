@@ -2,25 +2,27 @@
 layout: default
 ---
 
-{% capture statusbadge %}{% include statusbadge.md %}{% endcapture %}
+{% assign blocks = site.data.blocks | sort: "date","first" %}
+{% assign newest_block = blocks | last %}
 
 # Vulpine Club Documentation Portal
 
+Current instance status: {%- include statusbadge.md %}
+
+## Connecting to the Vulpine Club
+
 - [vulpine.club main page](https://vulpine.club/)
-  - Current status: {{ statusbadge }}
-  - Alternate links
-    - Each of these will create its own login session, separate from the other alternate links or vulpine.club itself.
-    - [0.vulpine.club](https://0.vulpine.club/)
-    - [1.vulpine.club](https://1.vulpine.club/)
-    - [2.vulpine.club](https://2.vulpine.club/)
-    - [3.vulpine.club](https://3.vulpine.club/)
+- Alternate links:
+  [0.vulpine.club](https://0.vulpine.club/), [1.vulpine.club](https://1.vulpine.club/), [2.vulpine.club](https://2.vulpine.club/), [3.vulpine.club](https://3.vulpine.club/)
+  <br/>
+  <em>Each of these creates its own login session, separate from the other links. This is useful for logging into multiple accounts simultaneously, e.g. a main account and a lewd account.</em>
 
 ## Information for Members
 
-- [Blocked Instances list](/blocklist)
-- [System status page](/status)
+- [Blocked Instances list]({% link blocklist.md %}) - last updated: {{ newest_block.date }}
+- [System status page]({% link status.md %})
 - [Custom Emoji list](https://emojos.in/vulpine.club) (from emojos.in)
-- [Financial Information](/financial)
+- [Financial Information]({% link financial/index.md %})
 
 ## Information for Admins
 
