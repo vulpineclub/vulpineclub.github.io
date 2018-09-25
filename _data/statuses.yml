@@ -5,11 +5,13 @@
            next couple whiles. Whoops.
            
            - 19:30 - waiting for a Docker Hub build... [build details](https://hub.docker.com/r/vulpineclub/mastodon/builds/bv2zaw3q9yywle3jwif7bxv/)
-           
+
            - 19:45 - queues seem pretty okay rn? the original thing that f'd it up was decreasing the sidekiq scale
              factor from 4 to 3. however, i bumped it back up to 4 and we're good. maybe it just needs to be 4.
              still gonna wait for the rebuild tho; dirty builds sketch me out.
-  status: active
+
+           - 23:15 - oh! hi! okay so it finished the build and i deployed it and i think things are gonna be fine. honestly they were probably
+             fine all along, i was just being impatient.  i'm gonna go ahead and -- _bing!_ -- turn off the seatbelt sign and
 
 - date: 2018-09-23 02:20:00 +0000
   severity: degraded performance
