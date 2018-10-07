@@ -2,7 +2,6 @@
 layout: default
 title: instance blacklist
 permalink: /blocklist
-breadcrumb: ./
 ---
 
 <!--

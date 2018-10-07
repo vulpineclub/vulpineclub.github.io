@@ -1,7 +1,6 @@
 ---
 layout: default
 title: local features
-breadcrumb: ../
 ---
 
 # Local Features

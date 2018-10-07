@@ -1,7 +1,6 @@
 ---
 layout: default
 title: financial information
-breadcrumb: ../
 ---
 
 # Financial information
