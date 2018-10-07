@@ -7,6 +7,10 @@ layout: default
 
 # Vulpine Club Documentation Portal
 
+Welcome to the Vulpine Club documentation portal!
+
+This is a collection of various information about the vulpine.club project, mostly from an operational perspective. If you have any comments/suggestions, please feel free to hit up our [issues list on GitHub](https://github.com/vulpineclub/vulpineclub.github.io/issues) or send a DM to [@rey@vulpine.club](https://vulpine.club/@rey).
+
 ## Connecting to the Vulpine Club
 
 - [vulpine.club main page](https://vulpine.club/)
