@@ -39,7 +39,6 @@ Last known production tag: _data/sitedata.yml, the "production" variable
 {% assign actives = statuses | where:"status","active" %}
 
 {% if actives.size > 0 %}
-
 **There {% if actives.size > 1 %}are{% else %}is{% endif %} {{ actives.size }} known issue{% if actives.size > 1 %}s{% endif %}:**
 
 <ul>
@@ -49,9 +48,7 @@ Last known production tag: _data/sitedata.yml, the "production" variable
 </ul>
 
 {% else %}
-
 This page knows of no reason why everything shouldn't be working fine.
-
 {% endif %}
 
 <small>
@@ -60,10 +57,10 @@ Page last rendered: {{ site.time | date: "%Y-%m-%d %H:%M:%S %z" }}
 Last known production tag: [{{ site.data.sitedata.production }}](https://github.com/vulpineclub/mastodon/releases/tag/{{ site.data.sitedata.production }})
 </small>
 
-### Past incidents
+### Recent incidents
 
 <ul>
-{% for status in statuses %}
+{% for status in statuses limit:10 %}
   {% include statusentry.md %}
 {% endfor %}
 </ul>
