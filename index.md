@@ -25,6 +25,7 @@ This is a collection of various information about the vulpine.club project, most
 - [Blocked Instances list]({% link blocklist.md %}) - last updated: {{ newest_block.date }}
 - [Custom Emoji list](https://emojos.in/vulpine.club) (from emojos.in)
 - [Financial Information]({% link financial/index.md %})
+- [Local Features]({% link features/index.md %})
 
 ## Information for Admins
 
