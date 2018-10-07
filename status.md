@@ -38,11 +38,9 @@ Last known production tag: _data/sitedata.yml, the "production" variable
 {% assign statuses = site.data.statuses | sort: 'date' | reverse %}
 {% assign actives = statuses | where:"status","active" %}
 
-## Current status: {% if actives.size > 0 %}DEGRADED{% else %}all clear!{% endif %}
-
 {% if actives.size > 0 %}
 
-**There are known system issues:**
+**There {% if actives.size > 1 %}are{% else %}is{% endif %} {{ actives.size }} known issue{% if actives.size > 1 %}s{% endif %}:**
 
 <ul>
 {% for status in actives %}

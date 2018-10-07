@@ -7,8 +7,6 @@ layout: default
 
 # Vulpine Club Documentation Portal
 
-Current instance status: {%- include statusbadge.md %}
-
 ## Connecting to the Vulpine Club
 
 - [vulpine.club main page](https://vulpine.club/)
@@ -19,8 +17,8 @@ Current instance status: {%- include statusbadge.md %}
 
 ## Information for Members
 
+- System status: {%- include statusbadge.md %}
 - [Blocked Instances list]({% link blocklist.md %}) - last updated: {{ newest_block.date }}
-- [System status page]({% link status.md %})
 - [Custom Emoji list](https://emojos.in/vulpine.club) (from emojos.in)
 - [Financial Information]({% link financial/index.md %})
 
