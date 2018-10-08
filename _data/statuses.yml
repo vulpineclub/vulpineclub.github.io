@@ -1,4 +1,4 @@
-- date: 2018-10-07 15:30:00 -0400
+- date: 2018-10-07 20:15:00 -0400
   severity: upgrade
   summary: upgrade from [prod-20180928-01 to prod-20181007-01](https://github.com/vulpineclub/mastodon/compare/prod-20180928-01...prod-20181007-01)
 
