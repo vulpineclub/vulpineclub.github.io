@@ -1,6 +1,8 @@
 - date: 2018-10-07 21:10:00 -0400
-  severity: update
+  severity: upgrade
   summary: upgrade from [prod-20181007-01 to prod-20181007-02](https://github.com/vulpineclub/mastodon/compare/prod-20181007-01...prod-20181007-02)
+
+           - a couple quick minor tweaks from glitch-soc
 
 - date: 2018-10-07 20:15:00 -0400
   severity: upgrade
