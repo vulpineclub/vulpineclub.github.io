@@ -47,7 +47,7 @@
 - domain: baraag.net
   severity: suspend
   date: 2018-10-09
-  reason: permits posting of artwork which is not legal in vulpine.club's legal jurisdiction (was silence/nomedia 2018-02-28 -> 2018-10-09)
+  reason: permits posting of artwork which is not legal in vulpine.club's legal jurisdiction (was silence/nomedia 2018-02-28 -> 2018-10-09); upgraded to a suspend due to general problematicness
   link: https://vulpine.club/@rey/99604671628655129
 
 - domain: gay.nsfw.onl
