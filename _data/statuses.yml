@@ -1,3 +1,9 @@
+- date: 2018-10-11 21:45:00 -0400
+  severity: upgrade
+  summary: upgrade from [prod-20181009-01 to prod-20181011-01](https://github.com/vulpineclub/mastodon/compare/prod-20181009-01...prod-20181011-01)
+
+           - Cherry-pick "Improve signature verification safeguards (#8959)" for security
+
 - date: 2018-10-09 18:24:00 -0400
   severity: upgrade
   summary: upgrade from [prod-20181007-02 to prod-20181009-01](https://github.com/vulpineclub/mastodon/compare/prod-20181007-02...prod-20181009-01)
