@@ -4,6 +4,10 @@
            for media assets.  Turns out that this requires a bit more preparation work, which will be
            done during an upcoming upgrade.
 
+- date: 2018-10-14 02:15:00 +0000
+  severity: brief outage
+  summary: restarted vulpine.club web frontends to increase the character limit from 500 to 666.  h/t @kellerfuchs
+
 - date: 2018-10-11 21:45:00 -0400
   severity: upgrade
   summary: upgrade from [prod-20181009-01 to prod-20181011-01](https://github.com/vulpineclub/mastodon/compare/prod-20181009-01...prod-20181011-01)
