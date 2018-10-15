@@ -1,6 +1,6 @@
 - date: 2018-10-14 22:00:00 -0400
   severity: upgrade
-  summary: upgrade to prod-20181014-01
+  summary: upgrade to prod-20181014-01; merge from glitchsoc, add cdn-assets.vulpine.owogroupllc.com to CSP
 
 - date: 2018-10-14 21:00:00 -0400
   severity: degraded availability
