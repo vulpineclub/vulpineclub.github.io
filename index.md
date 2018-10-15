@@ -21,7 +21,10 @@ This is a collection of various information about the vulpine.club project, most
 
 ## Information for Members
 
-- System status: {%- include statusbadge.md %}
+System status: {%- include statusbadge.md %}
+
+Current production build: [{{ site.data.sitedata.production }}](https://github.com/vulpineclub/mastodon/releases/tag/{{ site.data.sitedata.production }})
+
 - [Blocked Instances list]({% link blocklist.md %}) - last updated: {{ newest_block.date }}
 - [Custom Emoji list](https://emojos.in/vulpine.club) (from emojos.in)
 - [Financial Information]({% link financial/index.md %})
