@@ -1,3 +1,7 @@
+- date: 2018-10-15 21:35:00 -0400
+  severity: brief outage
+  summary: changed S3_ALIAS_HOST from d2pc52zrmidoft.cloudfront.net to cdn-assets.vulpine.owogroupllc.com ... same thing, different name
+
 - date: 2018-10-14 23:35:00 -0400
   severity: upgrade
   summary: upgrade to prod-20181014-02; iterate glitchfox
