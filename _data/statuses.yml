@@ -1,3 +1,7 @@
+- date: 2018-10-15 21:52:00 -0400
+  severity: brief outage
+  summary: the last outage didn't take, so poking it again
+
 - date: 2018-10-15 21:35:00 -0400
   severity: brief outage
   summary: changed S3_ALIAS_HOST from d2pc52zrmidoft.cloudfront.net to cdn-assets.vulpine.owogroupllc.com ... same thing, different name
