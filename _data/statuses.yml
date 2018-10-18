@@ -1,3 +1,7 @@
+- date: 2018-10-18 11:45:00 -0400
+  severity: brief outage
+  summary: restarted the web workers to increase character limit from 666 to 667.  [justification](https://vulpine.club/@rey/100917382859684450)
+
 - date: 2018-10-15 21:52:00 -0400
   severity: brief outage
   summary: the last outage didn't take, so poking it again
