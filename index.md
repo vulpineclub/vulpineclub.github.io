@@ -27,6 +27,12 @@ Current production build: [{{ site.data.sitedata.production }}](https://github.c
 
 - [Blocked Instances list]({% link blocklist.md %}) - last updated: {{ newest_block.date }}
 - [Custom Emoji list](https://emojos.in/vulpine.club) (from emojos.in)
+  - Custom emoji contributions are welcome!
+    - PNG format, 50 KB maximum
+    - Filename format: `shortcode.png` -> `:shortcode:` (e.g. `heart_trans.png` would be added as `:heart_trans:`)
+    - If it's a personal emoji set, please prefix them with something unique to avoid namespace conflicts (e.g. `:rey_smirk:`)
+    - Please package multiple emoji into a .tar.gz file
+    - E-mail to `admins` at `vulpine.club`
 - [Financial Information]({% link financial/index.md %})
 - [Local Features]({% link features/index.md %})
 
