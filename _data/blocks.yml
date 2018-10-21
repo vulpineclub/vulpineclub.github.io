@@ -114,3 +114,9 @@
   date: 2018-10-09
   reason: freezepeach instance / single-user / transmisia
   link: https://vulpine.club/@rey/100867643148895568
+
+- domain: albin.social
+  severity: suspend
+  date: 2018-10-21
+  reason: followbots / data mining
+  link: https://vulpine.club/@rey/100936073032220807
