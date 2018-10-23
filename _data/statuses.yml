@@ -1,3 +1,23 @@
+- date: 2018-10-23 19:20:00 -0400
+  severity: upgrade
+  summary: upgrade to prod-20181023-01.  commits pulled from glitch-soc include
+
+            - Put a video camera emoji or a picture frame emoji instead of “.”
+
+            - Do not move CWs to toot body when toot body is empty, Fixes \#395
+
+            - Attempt at fixing inline video player
+
+            - Update mediaGallery component's width when opening CWs
+
+            - Force sensitive content flag when posting a toot with a CW
+
+            - Focus the UI when pressing Escape in the CW field
+
+            - Fix fav/boosts hotkeys not working on detailed statuses
+
+            - Fix deleting individual notifications from glitch-soc's web interface
+
 - date: 2018-10-18 11:45:00 -0400
   severity: brief outage
   summary: restarted the web workers to increase character limit from 666 to 667.  [justification](https://vulpine.club/@rey/100917382859684450)
