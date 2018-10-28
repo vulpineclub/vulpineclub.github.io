@@ -48,5 +48,9 @@ Current production build: [{{ site.data.sitedata.production }}](https://github.c
     - [vulpineclub:master -> vulpineclub:production](https://github.com/vulpineclub/mastodon/compare/production...vulpineclub:master)
     - Deployments via the [production branch](https://github.com/vulpineclub/mastodon/tree/production) are [tagged with `prod-*` tags](https://github.com/vulpineclub/mastodon/tags)
     - [Docker Hub builds](https://hub.docker.com/r/vulpineclub/mastodon/builds/)
+- Operations
+  - Importing custom emojo
+    - Plop a tarfile containing files named `shortcode.png` in `/tmp`
+    - `docker-compose run --rm -v /tmp:/mnt web tootctl emoji import /mnt/rey-emojo.tar.gz`
 
 ![fox sketch](/img/foxsketch.png)
