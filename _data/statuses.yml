@@ -1,3 +1,7 @@
+- date: 2018-10-30 19:45:00 -0400
+  severity: upgrade
+  summary: upgrade to prod-20181030-01
+
 - date: 2018-10-28 20:45:00 -0400
   severity: upgrade
   summary: upgrade to prod-20181028-01, system updates
