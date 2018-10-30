@@ -53,4 +53,4 @@ Current production build: [{{ site.data.sitedata.production }}](https://github.c
     - Plop a tarfile containing files named `shortcode.png` in `/tmp`
     - `docker-compose run --rm -v /tmp:/mnt web tootctl emoji import /mnt/rey-emojo.tar.gz`
 
-![fox sketch]({{ '/assets/img/foxsketch.png' | relative_url }})
+![fox sketch]({{ '/assets/images/foxsketch.png' | relative_url }})
