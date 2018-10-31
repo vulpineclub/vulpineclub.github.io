@@ -1,3 +1,7 @@
+- date: 2018-10-31 00:50:00 -0400
+  severity: upgrade
+  summary: upgrade to prod-20181030-02 (regression)
+
 - date: 2018-10-30 19:45:00 -0400
   severity: upgrade
   summary: upgrade to prod-20181030-01
