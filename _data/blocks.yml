@@ -120,3 +120,82 @@
   date: 2018-10-21
   reason: followbots / data mining
   link: https://vulpine.club/@rey/100936073032220807
+
+- domain: soc.h4x.group
+  severity: suspend
+  date: 2018-11-02
+  reason: freezepeach
+  link: https://social.diskseven.com/@Jo/100997402454202640
+
+- domain: hitchhiker.social
+  severity: suspend
+  date: 2018-11-02
+  reason: freezepeach
+  link: https://occult.camp/@urwitchygothmom/101001988989764797
+
+- domain: freespeechextreme.com
+  severity: suspend
+  date: 2018-11-02
+  reason: freezepeach
+  link: https://occult.camp/@urwitchygothmom/101001988989764797
+
+- domain: freespeechextremist.com
+  severity: suspend
+  date: 2018-11-02
+  reason: freezepeach
+  link: https://occult.camp/@urwitchygothmom/101001988989764797
+
+- domain: fybuk.com
+  severity: suspend
+  date: 2018-11-02
+  reason: unusual activity, possibly data mining
+  link: https://yiff.life/@sky/100981141970487447
+
+- domain: quey.org
+  severity: suspend
+  date: 2018-11-02
+  reason: transmisia and harassment from admin w/ multiple instances (@Snder@quey.org)
+  link: https://mastodon.circlelinego.com/@mlubert/100946656510672428
+
+- domain: spacetime.social
+  severity: suspend
+  date: 2018-11-02
+  reason: transmisia and harassment from admin w/ multiple instances (@Snder@quey.org)
+  link: https://mastodon.circlelinego.com/@mlubert/100946656510672428
+
+- domain: misskey.nl
+  severity: suspend
+  date: 2018-11-02
+  reason: transmisia and harassment from admin w/ multiple instances (@Snder@quey.org)
+  link: https://mastodon.circlelinego.com/@mlubert/100946656510672428
+
+- domain: pixfed.com
+  severity: suspend
+  date: 2018-11-02
+  reason: transmisia and harassment from admin w/ multiple instances (@Snder@quey.org)
+  link: https://mastodon.circlelinego.com/@mlubert/100946656510672428
+
+- domain: toot.world
+  severity: suspend
+  date: 2018-11-02
+  reason: transmisia and harassment from admin w/ multiple instances (@Snder@quey.org)
+  link: https://mastodon.circlelinego.com/@mlubert/100946656510672428
+
+- domain: unsafe.co
+  severity: suspend
+  date: 2018-11-02
+  reason: transmisia and harassment from admin w/ multiple instances (@Snder@quey.org)
+  link: https://mastodon.circlelinego.com/@mlubert/100946656510672428
+
+- domain: thefederation.net
+  severity: suspend
+  date: 2018-11-02
+  reason: transmisia and harassment from admin w/ multiple instances (@Snder@quey.org)
+  link: https://mastodon.circlelinego.com/@mlubert/100946656510672428
+
+- domain: social.super-niche.club
+  severity: suspend
+  date: 2018-11-02
+  reason: loli
+  link: https://cybre.space/@pmosetc/100918456784523705
+
