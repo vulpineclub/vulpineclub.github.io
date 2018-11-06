@@ -1,6 +1,6 @@
 - date: 2018-11-06 00:30:00 -0500
   severity: degraded performance
-  active: yes
+  status: active
 
 - date: 2018-11-06 00:00:00 -0500
   severity: upgrade
