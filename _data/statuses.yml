@@ -1,9 +1,9 @@
 - date: 2018-11-06 00:30:00 -0500
   severity: degraded performance
   status: resolved
-  summary: - queue backlog because @rey got bored and retried the entire dead queue again, sorry
+  summary: queue backlog because @rey got bored and retried the entire dead queue again, sorry
 
-           - resolved at 2018-11-06 00:50:00 -0500
+            - resolved at 2018-11-06 00:50:00 -0500
 
 - date: 2018-11-06 00:00:00 -0500
   severity: upgrade
