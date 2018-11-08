@@ -1,3 +1,7 @@
+- date: 2018-11-08 16:55:00 -0500
+  severity: upgrade
+  summary: upgrade to prod-20181108-01 (which is the same as prod-20181105-01, but with precompiled assets served via CloudFront)
+
 - date: 2018-11-06 00:30:00 -0500
   severity: degraded performance
   status: resolved
