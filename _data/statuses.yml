@@ -1,11 +1,15 @@
 - date: 2018-11-08 16:55:00 -0500
   severity: upgrade
-  status: active
-  summary: upgrade to prod-20181108-01 (6bdfc5f759ab) (which is the same as prod-20181105-01, but with precompiled assets served via CloudFront)
+  status: resolved
+  summary: upgrade to prod-20181108-01 (6bdfc5f759ab)
+
+            - only change since prod-20181105-01 is serving local assets (/packs, /emoji, /sounds) via CloudFront, for ✨performance✨
 
             - 17:00 - reverted to prod-20181105-01 (8ed6832fba82); URL was mis-specified in the configuration.  doing a rebuild with a hotfix'd Dockerfile.
 
             - 17:25 - re-deploying prod-20181108-01 (a247d59d6d7d)
+
+            - 17:30 - okay this looks good.  resolving!
 
 - date: 2018-11-06 00:30:00 -0500
   severity: degraded performance
