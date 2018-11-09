@@ -39,7 +39,6 @@
 
 - date: 2018-11-08 16:55:00 -0500
   severity: upgrade
-  status: active
   summary: upgrade to prod-20181108-01
 
             - only change since prod-20181105-01 is serving local assets (/packs, /emoji, /sounds) via CloudFront, for ✨performance✨
