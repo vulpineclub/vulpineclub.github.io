@@ -1,17 +1,17 @@
 - date: 2018-11-08 19:30:00 -0500
   severity: outage
-  status: active
-  summary: web UI is not working due to CORS headers sporadically missing on /packs
+  status: resolved
+  summary: web UI was broken, degraded, or totally fine for various people, due to an incorrect configuration of the CloudFront caching behavior. this was declared resolved at 21:45 -0500.
   incident: 2018-11-08-01
 
 - date: 2018-11-08 19:15:00 -0500
   severity: upgrade
-  summary: upgrade to prod-20181108-02 (minor graphics updates)
+  summary: upgrade to prod-20181108-02 (cc7ee2dd5a3e) (minor graphics updates)
 
 - date: 2018-11-08 16:55:00 -0500
   severity: upgrade
   incident: 2018-11-08-01
-  summary: upgrade to prod-20181108-01
+  summary: upgrade to prod-20181108-01 (a247d59d6d7d)
 
             - only change since prod-20181105-01 was serving local assets (/packs, /emoji, /sounds) via CloudFront, for ✨performance✨
 
