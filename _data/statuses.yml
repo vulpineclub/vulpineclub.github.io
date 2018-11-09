@@ -1,3 +1,8 @@
+- date: 2018-11-08 19:30:00 -0500
+  severity: outage
+  status: active
+  summary: web UI is not working due to CORS headers sporadically missing on /packs
+
 - date: 2018-11-08 19:15:00 -0500
   severity: upgrade
   summary: upgrade to prod-20181108-02 (minor graphics updates)
