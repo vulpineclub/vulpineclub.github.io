@@ -5,7 +5,9 @@
 
             - 19:30 - re-opening outage because of reports of multiple folks getting greyscreen on the web UI
 
-            - 19:40 - determined that the problem was not noticed on the original deploy because the Chrome developer tools' "What's New!" tab was occluding @rey@vulpine.club 's view of the increasingly-urgent cascade of errors.
+            - 19:38 - <rey> oh the fucking “What’s New” tab was hiding the console in chrome
+
+            - 19:40 - determined that the problem was CORS
 
             - 19:55 - brief full-system outage (all containers) because of unclear documentation on a Docker command-line argument
 
@@ -17,21 +19,15 @@
 
             - 21:10 - things seem okay now
 
-            - 21:12 - 
+            - 21:12 - a brief glimpse into our ops backchannel
 
-              - Rey 🐈 raaaaawrrrr rawr rawwwwwr arawr rawr, [Nov 8, 2018 at 21:12:01]
+                <rey> wait did i not deploy the rollback build
 
-                wait did i not deploy the rollback build
+                <rey> oh my god why am i doing this while high
 
-                oh my god why am i doing this while high
+                <tastymochafox> cuz who isnt high in 2018
 
-              - Rylee Fox, [Nov 8, 2018 at 21:18:57]
-
-                cuz who isnt high in 2018
-
-              - Rey 🐈 raaaaawrrrr rawr rawwwwwr arawr rawr, [Nov 8, 2018 at 21:25:33]
-
-                a point of valid
+                <rey> a point of valid
 
             - 21:40 - deployed a rebuilt prod-20181108-02 image to force an invalidation
 
