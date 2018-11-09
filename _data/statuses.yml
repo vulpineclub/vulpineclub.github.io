@@ -17,7 +17,7 @@
 
             - 17:30 - okay this looks good.  resolving!
 
-            - 19:20 - observed that avatars are not loading on public pages, because /avatars is not set up on the CloudFront side.  fixing this.
+            - 19:20 - observed that avatars and headers are not loading on public pages, because /avatars and /headers are not set up on the CloudFront side.  fixing this, should be about 10 minutes
 
 - date: 2018-11-06 00:30:00 -0500
   severity: degraded performance
