@@ -4,7 +4,7 @@
 
 - date: 2018-11-08 16:55:00 -0500
   severity: upgrade
-  status: resolved
+  status: active
   summary: upgrade to prod-20181108-01
 
             - only change since prod-20181105-01 is serving local assets (/packs, /emoji, /sounds) via CloudFront, for ✨performance✨
@@ -16,6 +16,8 @@
             - 17:25 - re-deploying prod-20181108-01 (a247d59d6d7d)
 
             - 17:30 - okay this looks good.  resolving!
+
+            - 19:20 - observed that avatars are not loading on public pages, because /avatars is not set up on the CloudFront side.  fixing this.
 
 - date: 2018-11-06 00:30:00 -0500
   severity: degraded performance
