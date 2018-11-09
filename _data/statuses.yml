@@ -3,6 +3,37 @@
   status: active
   summary: web UI is not working due to CORS headers sporadically missing on /packs
 
+            - 19:30 - re-opening outage because of reports of multiple folks getting greyscreen on the web UI
+
+            - 19:40 - determined that the problem was not noticed on the original deploy because the Chrome developer tools' "What's New!" tab was occluding @Rey's view of the increasingly-urgent cascade of errors.
+
+            - 19:55 - brief full-system outage (all containers) because of unclear documentation on a Docker command-line argument
+
+            - 20:15 - rollback build started... the image without CDN_HOST had been expired so it had to be rebuilt
+
+            - 20:30 - workaround in place to force things to work; cache invalidations begin
+
+            - 21:00 - CloudFront reconfigured to properly handle OPTIONS requests, the Origin header, and the __uncache invalidation parameter
+
+            - 21:10 - things seem okay now
+
+            - 21:12 - 
+              - Rey 🐈 raaaaawrrrr rawr rawwwwwr arawr rawr, [Nov 8, 2018 at 21:12:01]
+
+                wait did i not deploy the rollback build
+
+                oh my god why am i doing this while high
+
+              - Rylee Fox, [Nov 8, 2018 at 21:18:57]
+
+                cuz who isnt high in 2018
+
+              - Rey 🐈 raaaaawrrrr rawr rawwwwwr arawr rawr, [Nov 8, 2018 at 21:25:33]
+
+                a point of valid
+
+            - 21:40 - deployed a rebuilt prod-20181108-02 image to force an invalidation
+
 - date: 2018-11-08 19:15:00 -0500
   severity: upgrade
   summary: upgrade to prod-20181108-02 (minor graphics updates)
