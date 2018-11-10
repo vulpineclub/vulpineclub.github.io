@@ -1,3 +1,17 @@
+- date: 2018-11-09 21:20:00 -0500
+  severity: upgrade
+  summary: upgrade to prod-20181109-01
+
+            - Implement adding a user to a list from their profile (#9062)
+
+            - Allow joining several hashtags in a single column (#8904)
+
+            - Temporarily hold timeline if mouse moved recently (fixes 8630) (#9200)
+
+            - Increase default column width from 330px to 350px (#9227)
+
+            - Add "Show thread" link to self-replies (#9228)
+
 - date: 2018-11-08 19:30:00 -0500
   severity: outage
   status: resolved
