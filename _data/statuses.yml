@@ -1,3 +1,8 @@
+- date: 2018-11-11 17:20:00 -0500
+  severity: maintenance
+  status: active
+  summary: rebooting the server, as it has been nearly 3 months.  also doing some adjustments to docker-compose networks, so now's a good time to take everything down for a sec...
+
 - date: 2018-11-09 21:20:00 -0500
   severity: upgrade
   summary: upgrade to prod-20181109-01
