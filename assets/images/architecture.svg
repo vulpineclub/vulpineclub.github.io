@@ -17,7 +17,2152 @@
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="architecture.svg">
   <defs
-     id="defs13426" />
+     id="defs13426">
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter16764">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix16736" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix16738" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite16740" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood16742" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite16744" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite16746" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur16748" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset16750" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood16752" />
+      <feMerge
+         result="result6"
+         id="feMerge16760">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode16754" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode16756" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode16758" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite16762" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter16794">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix16766" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix16768" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite16770" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood16772" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite16774" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite16776" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur16778" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset16780" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood16782" />
+      <feMerge
+         result="result6"
+         id="feMerge16790">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode16784" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode16786" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode16788" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite16792" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter16824">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix16796" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix16798" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite16800" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood16802" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite16804" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite16806" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur16808" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset16810" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood16812" />
+      <feMerge
+         result="result6"
+         id="feMerge16820">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode16814" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode16816" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode16818" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite16822" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter16854">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix16826" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix16828" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite16830" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood16832" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite16834" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite16836" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur16838" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset16840" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood16842" />
+      <feMerge
+         result="result6"
+         id="feMerge16850">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode16844" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode16846" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode16848" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite16852" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter16884">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix16856" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix16858" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite16860" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood16862" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite16864" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite16866" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur16868" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset16870" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood16872" />
+      <feMerge
+         result="result6"
+         id="feMerge16880">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode16874" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode16876" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode16878" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite16882" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter16914">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix16886" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix16888" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite16890" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood16892" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite16894" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite16896" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur16898" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset16900" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood16902" />
+      <feMerge
+         result="result6"
+         id="feMerge16910">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode16904" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode16906" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode16908" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite16912" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter16944">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix16916" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix16918" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite16920" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood16922" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite16924" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite16926" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur16928" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset16930" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood16932" />
+      <feMerge
+         result="result6"
+         id="feMerge16940">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode16934" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode16936" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode16938" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite16942" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter16974">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix16946" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix16948" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite16950" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood16952" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite16954" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite16956" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur16958" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset16960" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood16962" />
+      <feMerge
+         result="result6"
+         id="feMerge16970">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode16964" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode16966" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode16968" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite16972" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17004">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix16976" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix16978" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite16980" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood16982" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite16984" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite16986" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur16988" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset16990" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood16992" />
+      <feMerge
+         result="result6"
+         id="feMerge17000">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode16994" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode16996" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode16998" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17002" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17034">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17006" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17008" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17010" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17012" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17014" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17016" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17018" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17020" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17022" />
+      <feMerge
+         result="result6"
+         id="feMerge17030">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17024" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17026" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17028" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17032" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17064">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17036" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17038" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17040" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17042" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17044" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17046" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17048" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17050" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17052" />
+      <feMerge
+         result="result6"
+         id="feMerge17060">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17054" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17056" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17058" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17062" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17094">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17066" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17068" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17070" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17072" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17074" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17076" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17078" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17080" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17082" />
+      <feMerge
+         result="result6"
+         id="feMerge17090">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17084" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17086" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17088" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17092" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17124">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17096" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17098" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17100" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17102" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17104" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17106" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17108" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17110" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17112" />
+      <feMerge
+         result="result6"
+         id="feMerge17120">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17114" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17116" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17118" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17122" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17154">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17126" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17128" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17130" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17132" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17134" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17136" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17138" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17140" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17142" />
+      <feMerge
+         result="result6"
+         id="feMerge17150">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17144" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17146" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17148" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17152" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17184">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17156" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17158" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17160" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17162" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17164" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17166" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17168" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17170" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17172" />
+      <feMerge
+         result="result6"
+         id="feMerge17180">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17174" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17176" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17178" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17182" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17214">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17186" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17188" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17190" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17192" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17194" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17196" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17198" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17200" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17202" />
+      <feMerge
+         result="result6"
+         id="feMerge17210">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17204" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17206" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17208" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17212" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17244">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17216" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17218" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17220" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17222" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17224" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17226" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17228" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17230" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17232" />
+      <feMerge
+         result="result6"
+         id="feMerge17240">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17234" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17236" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17238" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17242" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17274">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17246" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17248" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17250" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17252" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17254" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17256" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17258" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17260" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17262" />
+      <feMerge
+         result="result6"
+         id="feMerge17270">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17264" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17266" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17268" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17272" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17304">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17276" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17278" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17280" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17282" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17284" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17286" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17288" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17290" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17292" />
+      <feMerge
+         result="result6"
+         id="feMerge17300">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17294" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17296" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17298" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17302" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17334">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17306" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17308" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17310" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17312" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17314" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17316" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17318" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17320" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17322" />
+      <feMerge
+         result="result6"
+         id="feMerge17330">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17324" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17326" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17328" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17332" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17364">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17336" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17338" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17340" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17342" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17344" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17346" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17348" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17350" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17352" />
+      <feMerge
+         result="result6"
+         id="feMerge17360">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17354" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17356" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17358" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17362" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17394">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17366" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17368" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17370" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17372" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17374" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17376" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17378" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17380" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17382" />
+      <feMerge
+         result="result6"
+         id="feMerge17390">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17384" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17386" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17388" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17392" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17424">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17396" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17398" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17400" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17402" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17404" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17406" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17408" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17410" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17412" />
+      <feMerge
+         result="result6"
+         id="feMerge17420">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17414" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17416" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17418" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17422" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17454">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17426" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17428" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17430" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17432" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17434" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17436" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17438" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17440" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17442" />
+      <feMerge
+         result="result6"
+         id="feMerge17450">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17444" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17446" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17448" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17452" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17484">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17456" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17458" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17460" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17462" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17464" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17466" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17468" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17470" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17472" />
+      <feMerge
+         result="result6"
+         id="feMerge17480">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17474" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17476" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17478" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17482" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17514">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17486" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17488" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17490" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17492" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17494" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17496" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17498" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17500" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17502" />
+      <feMerge
+         result="result6"
+         id="feMerge17510">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17504" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17506" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17508" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17512" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17544">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17516" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17518" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17520" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17522" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17524" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17526" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17528" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17530" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17532" />
+      <feMerge
+         result="result6"
+         id="feMerge17540">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17534" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17536" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17538" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17542" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17574">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17546" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17548" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17550" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17552" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17554" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17556" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17558" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17560" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17562" />
+      <feMerge
+         result="result6"
+         id="feMerge17570">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17564" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17566" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17568" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17572" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17604">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17576" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17578" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17580" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17582" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17584" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17586" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17588" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17590" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17592" />
+      <feMerge
+         result="result6"
+         id="feMerge17600">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17594" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17596" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17598" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17602" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17634">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17606" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17608" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17610" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17612" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17614" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17616" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17618" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17620" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17622" />
+      <feMerge
+         result="result6"
+         id="feMerge17630">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17624" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17626" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17628" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17632" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17664">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17636" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17638" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17640" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17642" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17644" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17646" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17648" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17650" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17652" />
+      <feMerge
+         result="result6"
+         id="feMerge17660">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17654" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17656" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17658" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17662" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Emergence"
+       id="filter17694">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix17666" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix17668" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite17670" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood17672" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite17674" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite17676" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur17678" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset17680" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood17682" />
+      <feMerge
+         result="result6"
+         id="feMerge17690">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode17684" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode17686" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode17688" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite17692" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,10 +2171,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="403.27829"
+     inkscape:cx="551.32665"
      inkscape:cy="478.24158"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1007"
@@ -52,9 +2197,10 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="background"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.64100003;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       style="opacity:1;fill:#000000;fill-opacity:0.75135133;fill-rule:nonzero;stroke:none;stroke-width:0.64100003;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect14358"
        width="298.11011"
        height="210.96132"
@@ -69,7 +2215,7 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.73450375px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26836261px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10.73450375px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26836261px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter16764)"
        x="81.755287"
        y="100.21985"
        id="text13993"><tspan
@@ -80,7 +2226,8 @@
          style="stroke-width:0.26836261px">vulpine.club architecture</tspan></text>
     <g
        id="g14006"
-       transform="translate(106.13778,83.357612)">
+       transform="translate(106.13778,83.357612)"
+       style="filter:url(#filter16794)">
       <rect
          y="24.117813"
          x="15.768902"
@@ -102,7 +2249,8 @@
     </g>
     <g
        id="g14274"
-       transform="translate(-0.52876059,36.18053)">
+       transform="translate(-0.52876059,36.18053)"
+       style="filter:url(#filter16824)">
       <text
          id="text14014"
          y="165.65799"
@@ -124,7 +2272,8 @@
     </g>
     <g
        id="g14047"
-       transform="translate(79.811731,89.386343)">
+       transform="translate(79.811731,89.386343)"
+       style="filter:url(#filter16854)">
       <text
          id="text14010"
          y="71.157242"
@@ -146,7 +2295,8 @@
     </g>
     <g
        id="g14062"
-       transform="translate(-131.88579,122.02823)">
+       transform="translate(-131.88579,122.02823)"
+       style="filter:url(#filter16884)">
       <text
          id="text14030"
          y="120.86938"
@@ -168,7 +2318,8 @@
     </g>
     <g
        id="g14067"
-       transform="translate(22.735233,112.77973)">
+       transform="translate(22.735233,112.77973)"
+       style="filter:url(#filter16914)">
       <text
          id="text14026"
          y="128.62019"
@@ -190,7 +2341,8 @@
     </g>
     <g
        id="g14318"
-       transform="translate(2.6080078,16.570711)">
+       transform="translate(2.6080078,16.570711)"
+       style="filter:url(#filter16944)">
       <text
          transform="scale(1.0536921,0.94904383)"
          id="text14022"
@@ -213,7 +2365,8 @@
     </g>
     <g
        id="g14137"
-       transform="translate(-172.40179,24.190478)">
+       transform="translate(-172.40179,24.190478)"
+       style="filter:url(#filter16974)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -234,7 +2387,7 @@
          y="244.08334" />
     </g>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17004)"
        d="M 69.124997,270.95256 133.65208,246.14592"
        id="path14168"
        inkscape:connector-type="polyline"
@@ -243,7 +2396,8 @@
        inkscape:connection-end="#g14067" />
     <g
        transform="translate(64.537216,108.54699)"
-       id="g14186">
+       id="g14186"
+       style="filter:url(#filter17034)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -264,7 +2418,7 @@
          y="83.184372" />
     </g>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17064)"
        d="m 183.06432,207.23299 -23.35527,23.74343"
        id="path14202"
        inkscape:connector-type="polyline"
@@ -272,7 +2426,7 @@
        inkscape:connection-start="#g14186"
        inkscape:connection-end="#g14067" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17094)"
        d="m 52.131702,268.27382 7.762309,-18.69447"
        id="path14204"
        inkscape:connector-type="polyline"
@@ -281,7 +2435,8 @@
        inkscape:connection-end="#g14062" />
     <g
        id="g14221"
-       transform="translate(-82.821416,17.76488)">
+       transform="translate(-82.821416,17.76488)"
+       style="filter:url(#filter17124)">
       <text
          id="text14212"
          y="264.49405"
@@ -303,7 +2458,8 @@
     </g>
     <g
        id="g14240"
-       transform="translate(191.96726,27.781262)">
+       transform="translate(191.96726,27.781262)"
+       style="filter:url(#filter17154)">
       <text
          id="text14229"
          y="255.04465"
@@ -324,7 +2480,7 @@
          style="opacity:1;fill:none;fill-opacity:0.94117647;fill-rule:nonzero;stroke:#000007;stroke-width:0.64100003;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
     </g>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17184)"
        d="M 72.405154,230.33595 93.190625,206.85179"
        id="path14278"
        inkscape:connector-type="polyline"
@@ -332,7 +2488,7 @@
        inkscape:connection-start="#g14062"
        inkscape:connection-end="#g14274" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17214)"
        d="M 141.05758,230.97642 110.48,206.85179"
        id="path14280"
        inkscape:connector-type="polyline"
@@ -341,7 +2497,7 @@
        inkscape:connection-end="#g14274" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93888903px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:4.93888903px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17244)"
        x="-207.63367"
        y="60.296494"
        id="text14286"
@@ -353,7 +2509,7 @@
          style="font-size:4.93888903px;stroke-width:0.26458332px">frontend</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17274)"
        x="-155.97043"
        y="97.628075"
        id="text14290"
@@ -368,7 +2524,7 @@
          y="103.80169">balancer</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17304)"
        x="-250.73405"
        y="13.757407"
        id="text14294"
@@ -380,7 +2536,7 @@
          style="stroke-width:0.26458332px">backend</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17334)"
        x="-289.05609"
        y="14.259359"
        id="text14298"
@@ -391,35 +2547,35 @@
          y="14.259359"
          style="stroke-width:0.26458332px">services</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:0.94117647;fill-rule:nonzero;stroke:#000007;stroke-width:0.59751326;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       style="opacity:1;fill:none;fill-opacity:0.94117647;fill-rule:nonzero;stroke:#000007;stroke-width:0.59751326;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter17364)"
        id="rect14304"
        width="138.33928"
        height="31.200895"
        x="79.33036"
        y="141.06697" />
     <rect
-       style="opacity:1;fill:none;fill-opacity:0.94117647;fill-rule:nonzero;stroke:#000007;stroke-width:0.57533866;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       style="opacity:1;fill:none;fill-opacity:0.94117647;fill-rule:nonzero;stroke:#000007;stroke-width:0.57533866;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter17394)"
        id="rect14306"
        width="203.79482"
        height="32.571617"
        x="47.678341"
        y="180.93309" />
     <rect
-       style="opacity:1;fill:none;fill-opacity:0.94117647;fill-rule:nonzero;stroke:#000007;stroke-width:0.57394522;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       style="opacity:1;fill:none;fill-opacity:0.94117647;fill-rule:nonzero;stroke:#000007;stroke-width:0.57394522;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter17424)"
        id="rect14308"
        width="283.14548"
        height="32.857048"
        x="3.721272"
        y="224.41588" />
     <rect
-       style="opacity:1;fill:none;fill-opacity:0.94117647;fill-rule:nonzero;stroke:#000007;stroke-width:0.64100003;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       style="opacity:1;fill:none;fill-opacity:0.94117647;fill-rule:nonzero;stroke:#000007;stroke-width:0.64100003;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter17454)"
        id="rect14310"
        width="284.61606"
        height="32.505951"
        x="2.6458333"
        y="261.09225" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17484)"
        d="m 109.72317,190.78785 28.89919,-24.6316"
        id="path14320"
        inkscape:connector-type="polyline"
@@ -427,7 +2583,7 @@
        inkscape:connection-start="#g14274"
        inkscape:connection-end="#g14047" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17514)"
        d="M 182.85526,191.73136 157.00844,166.15625"
        id="path14322"
        inkscape:connector-type="polyline"
@@ -435,7 +2591,7 @@
        inkscape:connection-start="#g14186"
        inkscape:connection-end="#g14047" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17544)"
        d="m 117.40485,203.83888 92.16703,27.04389"
        id="path14326"
        inkscape:connector-type="polyline"
@@ -443,7 +2599,7 @@
        inkscape:connection-start="#g14274"
        inkscape:connection-end="#g14318" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17574)"
        d="m 200.49632,207.23299 29.92646,23.64978"
        id="path14328"
        inkscape:connector-type="polyline"
@@ -451,7 +2607,7 @@
        inkscape:connection-start="#g14186"
        inkscape:connection-end="#g14318" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17604)"
        d="M 69.124997,274.97149 206.92272,247.70164"
        id="path14330"
        inkscape:connector-type="polyline"
@@ -459,7 +2615,7 @@
        inkscape:connection-start="#g14137"
        inkscape:connection-end="#g14318" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17634)"
        d="m 169.36907,269.02977 48.24194,-18.68431"
        id="path14332"
        inkscape:connector-type="polyline"
@@ -467,7 +2623,7 @@
        inkscape:connection-start="#g14221"
        inkscape:connection-end="#g14318" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17664)"
        d="m 240.92095,269.97471 1.21403,-19.62925"
        id="path14334"
        inkscape:connector-type="polyline"
@@ -475,7 +2631,7 @@
        inkscape:connection-start="#g14240"
        inkscape:connection-end="#g14318" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17694)"
        d="m 148.5,149.31827 0,-16.71951"
        id="path14336"
        inkscape:connector-type="polyline"
