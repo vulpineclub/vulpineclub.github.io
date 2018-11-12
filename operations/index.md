@@ -5,6 +5,10 @@ title: operational resources
 
 ## Quick reference
 
+- Starting the site
+  - `cd /srv/mastodon/vulpine.club/mastodon`
+  - `docker-compose up -d`
+
 - Importing custom emojo
   - Plop a tarfile containing files named `shortcode.png` in `/tmp`
   - `docker-compose run --rm -v /tmp:/mnt web tootctl emoji import /mnt/rey-emojo.tar.gz`
@@ -22,6 +26,8 @@ title: operational resources
 ![vulpine.club architecture]({{ '/assets/images/architecture.svg' | relative_url }})
 
 - Currently a single Linode 8GB instance (smithwicks)
+- Based around Docker Compose
+  - It works, sigh
 
 #### Networks
 
