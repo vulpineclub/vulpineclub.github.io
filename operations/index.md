@@ -36,7 +36,7 @@ Each container only connects to the networks it needs.
 - `external_network` is the only network with Internet access
   - IPv6 is primary - `2600:3c03:e000:027b::/64`
   - IPv4 requires NAT, w/ port forwarding for inbound (🤮)
-    - Hardcoded to `172.31.0.0/16` (the last /16 of that RFC 1918 range)
+    - Hardcoded to `172.31.0.0/16` (the last /16 of that RFC 1918 range) because otherwise Docker will randomly ruin things
 
 - `internal_network` goes between the Load Balancer and Frontend networks
 
@@ -101,3 +101,190 @@ Currently using Rey's personal AWS account - should probably move to its own...
 
 - Linode Backup Service
 - Hourly rsyncs to Rochester datacenter
+
+## Normal states
+
+- 2018-11-12: docker-ce held at `18.06.1~ce~3-0~ubuntu`
+- 2018-11-12: uname -a
+  ```
+  Linux smithwicks 4.18.16-x86_64-linode118 #1 SMP PREEMPT Mon Oct 29 15:38:25 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+  ```
+- 2018-11-12: docker ps
+  ```
+  CONTAINER ID        IMAGE                                                     COMMAND                  CREATED             STATUS              PORTS                                      NAMES
+  5c8c9b135b7f        nginx                                                     "nginx -g 'daemon of…"   7 hours ago         Up 7 hours          0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp   mastodon_nginx_1
+  bf128358fb77        vulpineclub/mastodon:production                           "/sbin/tini -- bash …"   7 hours ago         Up 7 hours          3000/tcp, 4000/tcp                         mastodon_web_1
+  20634a5fac4d        vulpineclub/mastodon:production                           "/sbin/tini -- bash …"   7 hours ago         Up 7 hours          3000/tcp, 4000/tcp                         mastodon_web_2
+  be98a5702a50        vulpineclub/mastodon:production                           "/sbin/tini -- yarn …"   7 hours ago         Up 7 hours          3000/tcp, 4000/tcp                         mastodon_streaming_1
+  6237b00513bc        vulpineclub/mastodon:production                           "/sbin/tini -- yarn …"   7 hours ago         Up 7 hours          3000/tcp, 4000/tcp                         mastodon_streaming_2
+  7b4fec57b3d6        vulpineclub/mastodon:production                           "/sbin/tini -- bundl…"   7 hours ago         Up 7 hours          3000/tcp, 4000/tcp                         mastodon_sidekiq_2
+  26c053d611fb        vulpineclub/mastodon:production                           "/sbin/tini -- bundl…"   7 hours ago         Up 7 hours          3000/tcp, 4000/tcp                         mastodon_sidekiq_1
+  cd4c9baca802        vulpineclub/mastodon:production                           "/sbin/tini -- bundl…"   7 hours ago         Up 7 hours          3000/tcp, 4000/tcp                         mastodon_sidekiq_3
+  bc22761aadb4        vulpineclub/mastodon:production                           "/sbin/tini -- bundl…"   7 hours ago         Up 7 hours          3000/tcp, 4000/tcp                         mastodon_sidekiq_4
+  0d969d868450        vulpineclub/ambassador                                    "/sbin/tini -- yarn …"   7 hours ago         Up 7 hours                                                     mastodon_ambassador_1
+  d5b305df5497        redis:4.0-alpine                                          "docker-entrypoint.s…"   7 hours ago         Up 7 hours                                                     mastodon_redis_1
+  8a5aa58493f5        docker.elastic.co/elasticsearch/elasticsearch-oss:6.2.4   "/usr/local/bin/dock…"   7 hours ago         Up 7 hours                                                     mastodon_es_1
+  2fcefc241830        postgres:9.6-alpine                                       "docker-entrypoint.s…"   7 hours ago         Up 7 hours                                                     mastodon_db_1
+  ```
+- 2018-11-12: df -h
+  ```
+  Filesystem      Size  Used Avail Use% Mounted on
+  /dev/root        77G   33G   41G  45% /
+  devtmpfs        3.9G     0  3.9G   0% /dev
+  tmpfs           3.9G     0  3.9G   0% /dev/shm 
+  tmpfs           3.9G   18M  3.9G   1% /run 
+  tmpfs           5.0M     0  5.0M   0% /run/lock
+  tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+  tmpfs           797M     0  797M   0% /run/user/2000
+  ```
+- 2018-11-12: docker-compose top
+  ```
+  mastodon_ambassador_1
+  UID   PID    PPID   C   STIME   TTY     TIME                                               CMD                                          
+  ----------------------------------------------------------------------------------------------------------------------------------------
+  992   1871   1846   0   Nov11   ?     00:00:00   /sbin/tini -- yarn start                                                               
+  992   2272   1871   0   Nov11   ?     00:00:06   node /usr/bin/yarn start                                                               
+  992   3145   2272   0   Nov11   ?     00:00:11   node /ambassador/node_modules/.bin/pm2 start --no-daemon index.js --restart-delay 10000
+  992   4097   3145   0   Nov11   ?     00:00:14   node /ambassador/index.js                                                              
+
+  mastodon_db_1
+  UID    PID    PPID   C   STIME   TTY     TIME                             CMD                        
+  -----------------------------------------------------------------------------------------------------
+  70    1428    1343   0   Nov11   ?     00:00:00   postgres                                           
+  70    1656    1428   0   Nov11   ?     00:00:11   postgres: checkpointer process                     
+  70    1657    1428   0   Nov11   ?     00:00:10   postgres: writer process                           
+  70    1658    1428   0   Nov11   ?     00:00:09   postgres: wal writer process                       
+  70    1659    1428   0   Nov11   ?     00:00:00   postgres: autovacuum launcher process              
+  70    1660    1428   0   Nov11   ?     00:00:20   postgres: stats collector process                  
+  70    3971    1428   0   Nov11   ?     00:00:31   postgres: postgres postgres 172.18.0.8(42486) idle 
+  70    4066    1428   0   Nov11   ?     00:00:31   postgres: postgres postgres 172.18.0.5(36922) idle 
+  70    4067    1428   0   Nov11   ?     00:00:31   postgres: postgres postgres 172.18.0.5(36926) idle 
+  70    4068    1428   0   Nov11   ?     00:00:32   postgres: postgres postgres 172.18.0.5(36932) idle 
+  70    4070    1428   0   Nov11   ?     00:00:31   postgres: postgres postgres 172.18.0.8(42592) idle 
+  70    4073    1428   0   Nov11   ?     00:00:31   postgres: postgres postgres 172.18.0.8(42614) idle 
+  70    4076    1428   0   Nov11   ?     00:00:30   postgres: postgres postgres 172.18.0.3(38092) idle 
+  70    4077    1428   0   Nov11   ?     00:00:30   postgres: postgres postgres 172.18.0.8(42626) idle 
+  70    4078    1428   0   Nov11   ?     00:00:29   postgres: postgres postgres 172.18.0.6(51258) idle 
+  70    4079    1428   0   Nov11   ?     00:00:29   postgres: postgres postgres 172.18.0.6(51260) idle 
+  70    4080    1428   0   Nov11   ?     00:00:29   postgres: postgres postgres 172.18.0.6(51264) idle 
+  70    4081    1428   0   Nov11   ?     00:00:30   postgres: postgres postgres 172.18.0.6(51266) idle 
+  70    4084    1428   0   Nov11   ?     00:00:29   postgres: postgres postgres 172.18.0.3(38116) idle 
+  70    4085    1428   0   Nov11   ?     00:00:27   postgres: postgres postgres 172.18.0.3(38118) idle 
+  70    4086    1428   0   Nov11   ?     00:00:29   postgres: postgres postgres 172.18.0.3(38120) idle 
+  70    4087    1428   0   Nov11   ?     00:00:30   postgres: postgres postgres 172.18.0.6(51282) idle 
+  70    4092    1428   0   Nov11   ?     00:00:32   postgres: postgres postgres 172.18.0.5(37026) idle 
+  70    4093    1428   0   Nov11   ?     00:00:31   postgres: postgres postgres 172.18.0.5(37028) idle 
+  70    4094    1428   0   Nov11   ?     00:00:29   postgres: postgres postgres 172.18.0.3(38154) idle 
+  70    4095    1428   0   Nov11   ?     00:00:30   postgres: postgres postgres 172.18.0.8(42688) idle 
+  70    4328    1428   0   04:50   ?     00:00:01   postgres: postgres postgres 172.18.0.10(33844) idle
+  70    6266    1428   0   04:59   ?     00:00:00   postgres: postgres postgres 172.18.0.7(45822) idle 
+  70    6267    1428   0   04:59   ?     00:00:00   postgres: postgres postgres 172.18.0.7(45824) idle 
+  70    6268    1428   0   04:59   ?     00:00:00   postgres: postgres postgres 172.18.0.9(35702) idle 
+  70    6269    1428   0   04:59   ?     00:00:00   postgres: postgres postgres 172.18.0.9(35704) idle 
+  70    6270    1428   0   04:59   ?     00:00:00   postgres: postgres postgres 172.18.0.9(35706) idle 
+  70    6788    1428   0   05:00   ?     00:00:02   postgres: postgres postgres 172.18.0.10(39624) idle
+  70    7476    1428   0   05:03   ?     00:00:00   postgres: postgres postgres 172.18.0.9(38086) idle 
+  70    7738    1428   0   05:03   ?     00:00:00   postgres: postgres postgres 172.18.0.11(38886) idle
+  70    7739    1428   0   05:03   ?     00:00:00   postgres: postgres postgres 172.18.0.10(42014) idle
+  70    7957    1428   0   05:04   ?     00:00:00   postgres: postgres postgres 172.18.0.10(42760) idle
+  70    7960    1428   0   05:04   ?     00:00:01   postgres: postgres postgres 172.18.0.10(42770) idle
+  70    7961    1428   0   05:04   ?     00:00:00   postgres: postgres postgres 172.18.0.11(39706) idle
+  70    7963    1428   0   05:04   ?     00:00:00   postgres: postgres postgres 172.18.0.10(42778) idle
+  70    7984    1428   0   05:04   ?     00:00:00   postgres: postgres postgres 172.18.0.11(39772) idle
+  70    7988    1428   0   05:04   ?     00:00:00   postgres: postgres postgres 172.18.0.9(39668) idle 
+  70    8466    1428   0   05:05   ?     00:00:00   postgres: postgres postgres 172.18.0.7(50268) idle 
+  70    8612    1428   0   05:06   ?     00:00:00   postgres: postgres postgres 172.18.0.7(50674) idle 
+  70    24873   1428   0   04:13   ?     00:00:06   postgres: postgres postgres 172.18.0.11(59968) idle
+  70    26610   1428   0   04:18   ?     00:00:05   postgres: postgres postgres 172.18.0.11(35898) idle
+  70    26613   1428   0   04:18   ?     00:00:06   postgres: postgres postgres 172.18.0.11(35914) idle
+  70    27460   1428   0   04:20   ?     00:00:06   postgres: postgres postgres 172.18.0.10(41394) idle
+  70    29299   1428   0   04:26   ?     00:00:06   postgres: postgres postgres 172.18.0.11(43334) idle
+  70    31121   1428   0   04:30   ?     00:00:05   postgres: postgres postgres 172.18.0.10(50750) idle
+
+  mastodon_es_1
+  UID    PID    PPID   C   STIME   TTY     TIME                                                                                            CMD                                                                                       
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  1000   1440   1385   0   Nov11   ?     00:03:20   /usr/lib/jvm/jre-1.8.0-openjdk/bin/java -Xms1g -Xmx1g -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+AlwaysPreTouch -Xss1m
+                                                    -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -XX:-OmitStackTraceInFastThrow -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true                     
+                                                    -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Djava.io.tmpdir=/tmp/elasticsearch.0UI9sMwv                              
+                                                    -XX:+HeapDumpOnOutOfMemoryError -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintTenuringDistribution -XX:+PrintGCApplicationStoppedTime -Xloggc:logs/gc.log                 
+                                                    -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=32 -XX:GCLogFileSize=64m -Des.cgroups.hierarchy.override=/ -Xms512m -Xmx512m -Des.path.home=/usr/share/elasticsearch            
+                                                    -Des.path.conf=/usr/share/elasticsearch/config -cp /usr/share/elasticsearch/lib/* org.elasticsearch.bootstrap.Elasticsearch -Ebootstrap.memory_lock=true                         
+
+  mastodon_nginx_1
+    UID      PID    PPID   C   STIME   TTY     TIME                        CMD                    
+  ------------------------------------------------------------------------------------------------
+  root       3649   3632   0   Nov11   ?     00:00:00   nginx: master process nginx -g daemon off;
+  www-data   3787   3649   0   Nov11   ?     00:03:19   nginx: worker process                     
+  www-data   3788   3649   0   Nov11   ?     00:00:07   nginx: worker process                     
+  www-data   3789   3649   0   Nov11   ?     00:00:00   nginx: worker process                     
+  www-data   3790   3649   0   Nov11   ?     00:00:00   nginx: worker process                     
+  www-data   3791   3649   0   Nov11   ?     00:00:00   nginx: cache manager process              
+
+  mastodon_redis_1
+    UID      PID    PPID   C   STIME   TTY     TIME         CMD     
+  ------------------------------------------------------------------
+  systemd+   1446   1398   0   Nov11   ?     00:03:07   redis-server
+
+  mastodon_sidekiq_1
+  UID   PID    PPID   C   STIME   TTY     TIME                          CMD                     
+  ----------------------------------------------------------------------------------------------
+  991   2713   2623   0   Nov11   ?     00:00:00   /sbin/tini -- bundle exec sidekiq            
+  991   3331   2713   5   Nov11   ?     00:21:22   sidekiq 5.2.3 mastodon [0 of 5 busy] /sidekiq
+
+  mastodon_sidekiq_2
+  UID   PID    PPID   C   STIME   TTY     TIME                          CMD                     
+  ----------------------------------------------------------------------------------------------
+  991   2919   2787   0   Nov11   ?     00:00:00   /sbin/tini -- bundle exec sidekiq            
+  991   3414   2919   5   Nov11   ?     00:20:20   sidekiq 5.2.3 mastodon [0 of 5 busy] /sidekiq
+
+  mastodon_sidekiq_3
+  UID   PID    PPID   C   STIME   TTY     TIME                          CMD                     
+  ----------------------------------------------------------------------------------------------
+  991   2322   2273   0   Nov11   ?     00:00:00   /sbin/tini -- bundle exec sidekiq            
+  991   2903   2322   5   Nov11   ?     00:21:30   sidekiq 5.2.3 mastodon [0 of 5 busy] /sidekiq
+
+  mastodon_sidekiq_4
+  UID   PID    PPID   C   STIME   TTY     TIME                          CMD                     
+  ----------------------------------------------------------------------------------------------
+  991   2518   2480   0   Nov11   ?     00:00:00   /sbin/tini -- bundle exec sidekiq            
+  991   3218   2518   5   Nov11   ?     00:20:38   sidekiq 5.2.3 mastodon [0 of 5 busy] /sidekiq
+
+  mastodon_streaming_1
+  UID   PID    PPID   C   STIME   TTY     TIME                           CMD                       
+  -------------------------------------------------------------------------------------------------
+  991   2981   2831   0   Nov11   ?     00:00:00   /sbin/tini -- yarn start                        
+  991   3529   2981   0   Nov11   ?     00:00:05   node /usr/local/bin/yarnpkg start               
+  991   3819   3529   0   Nov11   ?     00:00:00   node ./streaming/index.js                       
+  991   3827   3819   0   Nov11   ?     00:00:11   /usr/local/bin/node /mastodon/streaming/index.js
+  991   3835   3819   0   Nov11   ?     00:00:15   /usr/local/bin/node /mastodon/streaming/index.js
+  991   3836   3819   0   Nov11   ?     00:00:19   /usr/local/bin/node /mastodon/streaming/index.js
+
+  mastodon_streaming_2
+  UID   PID    PPID   C   STIME   TTY     TIME                           CMD                       
+  -------------------------------------------------------------------------------------------------
+  991   2589   2557   0   Nov11   ?     00:00:00   /sbin/tini -- yarn start                        
+  991   3257   2589   0   Nov11   ?     00:00:05   node /usr/local/bin/yarnpkg start               
+  991   3581   3257   0   Nov11   ?     00:00:00   node ./streaming/index.js                       
+  991   3780   3581   0   Nov11   ?     00:00:13   /usr/local/bin/node /mastodon/streaming/index.js
+  991   3785   3581   0   Nov11   ?     00:00:13   /usr/local/bin/node /mastodon/streaming/index.js
+  991   3793   3581   0   Nov11   ?     00:00:09   /usr/local/bin/node /mastodon/streaming/index.js
+
+  mastodon_web_1
+  UID   PID    PPID   C   STIME   TTY     TIME                                                     CMD                                                
+  ----------------------------------------------------------------------------------------------------------------------------------------------------
+  991   3024   2937   0   Nov11   ?     00:00:00   /sbin/tini -- bash -c rm -f /mastodon/tmp/pids/server.pid; bundle exec rails s -p 3000 -b '0.0.0.0'
+  991   3467   3024   0   Nov11   ?     00:00:00   bash -c rm -f /mastodon/tmp/pids/server.pid; bundle exec rails s -p 3000 -b '0.0.0.0'              
+  991   3475   3467   0   Nov11   ?     00:00:12   puma 3.12.0 (tcp://0.0.0.0:3000) [mastodon]                                                        
+  991   3929   3475   8   Nov11   ?     00:32:56   puma: cluster worker 0: 9 [mastodon]                                                               
+  991   3972   3475   8   Nov11   ?     00:34:52   puma: cluster worker 1: 9 [mastodon]                                                               
+
+  mastodon_web_2
+  UID   PID    PPID   C   STIME   TTY     TIME                                                     CMD                                                
+  ----------------------------------------------------------------------------------------------------------------------------------------------------
+  991   2995   2928   0   Nov11   ?     00:00:00   /sbin/tini -- bash -c rm -f /mastodon/tmp/pids/server.pid; bundle exec rails s -p 3000 -b '0.0.0.0'
+  991   3444   2995   0   Nov11   ?     00:00:00   bash -c rm -f /mastodon/tmp/pids/server.pid; bundle exec rails s -p 3000 -b '0.0.0.0'              
+  991   3453   3444   0   Nov11   ?     00:00:13   puma 3.12.0 (tcp://0.0.0.0:3000) [mastodon]                                                        
+  991   3902   3453   8   Nov11   ?     00:32:49   puma: cluster worker 0: 9 [mastodon]                                                               
+  991   3915   3453   8   Nov11   ?     00:34:07   puma: cluster worker 1: 9 [mastodon]                                                               
+  ```
