@@ -2194,20 +2194,6 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="background"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <rect
-       style="opacity:1;fill:#000000;fill-opacity:0.75135133;fill-rule:nonzero;stroke:none;stroke-width:0.64100003;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-       id="rect14358"
-       width="298.11011"
-       height="210.96132"
-       x="-0.37797621"
-       y="-0.15475717" />
-  </g>
-  <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
