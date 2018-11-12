@@ -94,8 +94,10 @@ Each container only connects to the networks it needs.
 
 Currently using Rey's personal AWS account - should probably move to its own...
 
-- S3
-- CloudFront
+- S3: `arn:aws:s3:::vulpine-club-assets`
+- CloudFront: `arn:aws:cloudfront::011240829081:distribution/E3V2DISUXTLHN7`
+  - Hostnames: `d2pc52zrmidoft.cloudfront.net` / `cdn-assets.vulpine.owogroupllc.com`
+  - TLS cert (AWS-managed, expires 2019-11-14T12:00:00UTC): `arn:aws:acm:us-east-1:011240829081:certificate/e76edc4d-5e47-4e7f-882f-0a5a6aa5aded`
 
 ### Backup/DR
 
