@@ -1,3 +1,7 @@
+- date: 2018-11-13 23:30:00 -0500
+  severity: maintenance
+  summary: restarted the postgresql server to increase max_connections from 100 to 150
+
 - date: 2018-11-11 17:20:00 -0500
   severity: maintenance
   status: resolved
