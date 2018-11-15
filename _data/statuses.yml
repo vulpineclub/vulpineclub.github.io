@@ -1,3 +1,11 @@
+- date: 2018-11-15 00:05:00 -0500
+  severity: upgrade
+  summar: upgrade to prod-20181114-01
+
+            - Fix loading indicator inconsistency (#9252)
+
+            - Local-only statuses excluded from atom feeds, unauthenticated streams
+
 - date: 2018-11-13 23:30:00 -0500
   severity: maintenance
   summary: restarted the postgresql server to increase max_connections from 100 to 150
