@@ -1,3 +1,8 @@
+- date: 2018-11-15 19:15:00 -0500
+  severity: outage
+  status: active
+  summary: docker blew up on me again, working on it...
+
 - date: 2018-11-15 00:05:01 -0500
   severity: outage
   status: resolved
