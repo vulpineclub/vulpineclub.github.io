@@ -3,6 +3,12 @@
   status: active
   summary: docker blew up on me again, working on it...
 
+            - ended up with a whole bunch of this
+
+              `Nov 16 00:24:18 smithwicks kernel: [69141.318334] unregister_netdevice: waiting for veth61859a0 to become free. Usage count = 9`
+
+              whyyyy
+
 - date: 2018-11-15 00:05:01 -0500
   severity: outage
   status: resolved
