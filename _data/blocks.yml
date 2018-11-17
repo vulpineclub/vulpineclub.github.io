@@ -24,10 +24,6 @@
   severity: silence
   reason: asshat ratio too high
 
-- domain: niu.moe
-  severity: silence
-  reason: asshat ratio too high
-
 - domain: counter.social
   severity: suspend
   reason: respecting their desire to have a safe space for <span title="White, Christian, Straight, and Pure of Foreign Influence">True Americans</span>. [dzuk link](https://github.com/dzuk-mutant/blockchain/blob/master/list/instances/counter_social/counter_social.md)
