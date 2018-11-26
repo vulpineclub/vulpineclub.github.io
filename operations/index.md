@@ -5,13 +5,31 @@ title: operational resources
 
 ## Quick reference
 
+### Shit is on fire
+
 - Starting the site
   - `cd /srv/mastodon/vulpine.club/mastodon`
   - `docker-compose up -d`
 
+- ElasticSearch turtles when disk exceeds 85%
+  - https://www.elastic.co/guide/en/elasticsearch/reference/6.2/disk-allocator.html
+  - `docker-compose run --rm es curl -X PUT "es:9200/statuses/_settings" -H 'Content-Type: application/json' -d'{"index.blocks.read_only_allow_delete": null}'`
+
+### Normal maintenance
+
 - Importing custom emojo
   - Plop a tarfile containing files named `shortcode.png` in `/tmp`
   - `docker-compose run --rm -v /tmp:/mnt web tootctl emoji import /mnt/rey-emojo.tar.gz`
+
+- Rails console tricks
+  - Open rails console: `docker-compose run --rm web rails c`
+  - Set a long thread of replies to "unlisted"
+    - ```
+      Status.where('account_id=16064 and conversation_id=1637200 and in_reply_to_account_id=16064').each do |stat|
+        stat.visibility = "unlisted"
+        stat.save!
+      end
+      ```
 
 ## Projects
 
