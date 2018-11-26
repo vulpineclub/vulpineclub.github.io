@@ -16,7 +16,9 @@ docker-compose up -d
 - ElasticSearch turtles when disk exceeds 85%
   - [ES documentation reference](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/disk-allocator.html)
 ```
-docker-compose run --rm es curl -X PUT "es:9200/statuses/_settings" -H 'Content-Type: application/json' -d'{"index.blocks.read_only_allow_delete": null}'
+docker-compose run --rm es curl -X PUT "es:9200/statuses/_settings" \
+  -H 'Content-Type: application/json' \
+  -d'{"index.blocks.read_only_allow_delete": null}'
 ```
 
 ### Normal maintenance
@@ -25,7 +27,8 @@ docker-compose run --rm es curl -X PUT "es:9200/statuses/_settings" -H 'Content-
   - Plop a tarfile containing files named `shortcode.png` in `/tmp`
   - Then run:
 ```
-docker-compose run --rm -v /tmp:/mnt web tootctl emoji import /mnt/rey-emojo.tar.gz
+docker-compose run --rm -v /tmp:/mnt web \
+  tootctl emoji import /mnt/rey-emojo.tar.gz
 ```
 
 - Rails console tricks
@@ -34,7 +37,9 @@ docker-compose run --rm web rails c
 ```
   - Set a long thread of replies to "unlisted"
 ```
-Status.where('account_id=16064 and conversation_id=1637200 and in_reply_to_account_id=16064').each do |stat|
+Status.where('account_id=16064 and conversation_id=1637200
+  and in_reply_to_account_id=16064').each
+do |stat|
   stat.visibility = "unlisted"
   stat.save!
 end
@@ -55,7 +60,10 @@ end
 ```
 query = Sidekiq::DeadSet.new
 query.select do |job|
-  job.item['class'] == 'ThreadResolveWorker' || job.item['class'] == 'ResolveAccountWorker' || job.item['class'] == 'LinkCrawlWorker' || job.item['error_class'] == 'ActiveRecord::RecordNotFound'
+  job.item['class'] == 'ThreadResolveWorker' ||
+  job.item['class'] == 'ResolveAccountWorker' ||
+  job.item['class'] == 'LinkCrawlWorker' ||
+  job.item['error_class'] == 'ActiveRecord::RecordNotFound'
 end.map(&:delete)
 ```
     - Retry all dead jobs
