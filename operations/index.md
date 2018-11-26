@@ -8,39 +8,48 @@ title: operational resources
 ### Shit is on fire
 
 - Starting the site
-  - `cd /srv/mastodon/vulpine.club/mastodon`
-  - `docker-compose up -d`
+```
+cd /srv/mastodon/vulpine.club/mastodon
+docker-compose up -d
+```
 
 - ElasticSearch turtles when disk exceeds 85%
-  - https://www.elastic.co/guide/en/elasticsearch/reference/6.2/disk-allocator.html
-  - `docker-compose run --rm es curl -X PUT "es:9200/statuses/_settings" -H 'Content-Type: application/json' -d'{"index.blocks.read_only_allow_delete": null}'`
+  - [ES documentation reference](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/disk-allocator.html)
+```
+docker-compose run --rm es curl -X PUT "es:9200/statuses/_settings" -H 'Content-Type: application/json' -d'{"index.blocks.read_only_allow_delete": null}'
+```
 
 ### Normal maintenance
 
 - Importing custom emojo
   - Plop a tarfile containing files named `shortcode.png` in `/tmp`
-  - `docker-compose run --rm -v /tmp:/mnt web tootctl emoji import /mnt/rey-emojo.tar.gz`
+  - Then run:
+```
+docker-compose run --rm -v /tmp:/mnt web tootctl emoji import /mnt/rey-emojo.tar.gz
+```
 
 - Rails console tricks
-  - Open rails console: `docker-compose run --rm web rails c`
+```
+docker-compose run --rm web rails c
+```
   - Set a long thread of replies to "unlisted"
-    - ```
-      Status.where('account_id=16064 and conversation_id=1637200 and in_reply_to_account_id=16064').each do |stat|
-        stat.visibility = "unlisted"
-        stat.save!
-      end
-      ```
+```
+Status.where('account_id=16064 and conversation_id=1637200 and in_reply_to_account_id=16064').each do |stat|
+  stat.visibility = "unlisted"
+  stat.save!
+end
+```
   - Update stale webfingerings
-    - ```
-      Account.where('last_webfingered_at < ?', 1.day.ago).each do |acct|
-          begin
-              puts acct.id
-              acct.refresh!
-          rescue Exception => msg
-              puts msg
-          end
-      end
-      ```
+```
+Account.where('last_webfingered_at < ?', 1.day.ago).each do |acct|
+    begin
+        puts acct.id
+        acct.refresh!
+    rescue Exception => msg
+        puts msg
+    end
+end
+```
   - Sidekiq
     - Clean up dead queue
 ```
@@ -60,7 +69,7 @@ end
     - Retry all jobs for a specific instance
 ```
 rs = Sidekiq::RetrySet.new
-rs.select {|j| j.value.include? "hxxps://awoo.space"}.each do |job|
+rs.select {|j| j.value.include? "https://awoo.space"}.each do |job|
     job.retry
     sleep 1
 end
