@@ -54,8 +54,7 @@ Account.where('last_webfingered_at < ?', 1.day.ago).each do |acct|
     end
 end
 ```
-  - Sidekiq
-    - Clean up dead queue
+  - Sidekiq: Clean up dead queue
 ```
 query = Sidekiq::DeadSet.new
 query.select do |job|
@@ -65,7 +64,7 @@ query.select do |job|
     job.item['error_class'] == 'ActiveRecord::RecordNotFound'
 end.map(&:delete)
 ```
-    - Retry all dead jobs
+  - Sidekiq: Retry all dead jobs
 ```
 ds = Sidekiq::DeadSet.new
 ds.each do |job|
@@ -73,7 +72,7 @@ ds.each do |job|
     sleep 1
 end
 ```
-    - Retry all jobs for a specific instance
+  - Sidekiq: Retry all jobs for a specific instance
 ```
 rs = Sidekiq::RetrySet.new
 rs.select {|j| j.value.include? "https://awoo.space"}.each do |job|
