@@ -36,7 +36,7 @@ docker-compose run --rm -v /tmp:/mnt web \
 docker-compose run --rm web rails c
 ```
   - Set a long thread of replies to "unlisted"
-```
+```ruby
 Status.where('account_id=16064 and conversation_id=1637200
   and in_reply_to_account_id=16064').each do |stat|
     stat.visibility = "unlisted"
@@ -44,7 +44,7 @@ Status.where('account_id=16064 and conversation_id=1637200
 end
 ```
   - Update stale webfingerings
-```
+```ruby
 Account.where('last_webfingered_at < ?', 1.day.ago).each do |acct|
     begin
         puts acct.id
@@ -55,7 +55,7 @@ Account.where('last_webfingered_at < ?', 1.day.ago).each do |acct|
 end
 ```
   - Sidekiq: Clean up dead queue
-```
+```ruby
 query = Sidekiq::DeadSet.new
 query.select do |job|
     job.item['class'] == 'ThreadResolveWorker' ||
@@ -65,7 +65,7 @@ query.select do |job|
 end.map(&:delete)
 ```
   - Sidekiq: Retry all dead jobs
-```
+```ruby
 ds = Sidekiq::DeadSet.new
 ds.each do |job|
     job.retry
@@ -73,7 +73,7 @@ ds.each do |job|
 end
 ```
   - Sidekiq: Retry all jobs for a specific instance
-```
+```ruby
 rs = Sidekiq::RetrySet.new
 rs.select {|j| j.value.include? "https://awoo.space"}.each do |job|
     job.retry
