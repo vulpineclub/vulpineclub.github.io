@@ -8,14 +8,14 @@ title: operational resources
 ### Shit is on fire
 
 - Starting the site
-```
+```bash
 cd /srv/mastodon/vulpine.club/mastodon
 docker-compose up -d
 ```
 
 - ElasticSearch turtles when disk exceeds 85%
   - [ES documentation reference](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/disk-allocator.html)
-```
+```bash
 docker-compose run --rm es curl -X PUT "es:9200/statuses/_settings" \
     -H 'Content-Type: application/json' \
     -d'{"index.blocks.read_only_allow_delete": null}'
@@ -26,21 +26,23 @@ docker-compose run --rm es curl -X PUT "es:9200/statuses/_settings" \
 - Importing custom emojo
   - Plop a tarfile containing files named `shortcode.png` in `/tmp`
   - Then run:
-```
+```bash
 docker-compose run --rm -v /tmp:/mnt web \
     tootctl emoji import /mnt/rey-emojo.tar.gz
 ```
 
 - Rails console tricks
-```
+```bash
 docker-compose run --rm web rails c
 ```
   - Set a long thread of replies to "unlisted"
 ```ruby
 Status.where('account_id=16064 and conversation_id=1637200
   and in_reply_to_account_id=16064').each do |stat|
-    stat.visibility = "unlisted"
-    stat.save!
+    begin
+        stat.visibility = "unlisted"
+        stat.save!
+    end
 end
 ```
   - Update stale webfingerings
@@ -68,16 +70,20 @@ end.map(&:delete)
 ```ruby
 ds = Sidekiq::DeadSet.new
 ds.each do |job|
-    job.retry
-    sleep 1
+    begin
+        job.retry
+        sleep 1
+    end
 end
 ```
   - Sidekiq: Retry all jobs for a specific instance
 ```ruby
 rs = Sidekiq::RetrySet.new
 rs.select {|j| j.value.include? "https://awoo.space"}.each do |job|
-    job.retry
-    sleep 1
+    begin
+        job.retry
+        sleep 1
+    end
 end
 ```
 
