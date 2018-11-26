@@ -30,6 +30,41 @@ title: operational resources
         stat.save!
       end
       ```
+  - Update stale webfingerings
+    - ```
+      Account.where('last_webfingered_at < ?', 1.day.ago).each do |acct|
+          begin
+              puts acct.id
+              acct.refresh!
+          rescue Exception => msg
+              puts msg
+          end
+      end
+      ```
+  - Sidekiq
+    - Clean up dead queue
+```
+query = Sidekiq::DeadSet.new
+query.select do |job|
+  job.item['class'] == 'ThreadResolveWorker' || job.item['class'] == 'ResolveAccountWorker' || job.item['class'] == 'LinkCrawlWorker' || job.item['error_class'] == 'ActiveRecord::RecordNotFound'
+end.map(&:delete)
+```
+    - Retry all dead jobs
+```
+ds = Sidekiq::DeadSet.new
+ds.each do |job|
+  job.retry
+  sleep 1
+end
+```
+    - Retry all jobs for a specific instance
+```
+rs = Sidekiq::RetrySet.new
+rs.select {|j| j.value.include? "hxxps://awoo.space"}.each do |job|
+    job.retry
+    sleep 1
+end
+```
 
 ## Projects
 
