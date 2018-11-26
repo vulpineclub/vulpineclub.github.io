@@ -1,10 +1,14 @@
 - date: 2018-11-26 14:15:00 -0500
   severity: outage
-  status: active
+  status: resolved
   summary: |
       14:15: taking the website down for a few minutes to fix docker, i hope
 
       14:35: looking like i may have nuked the bad network config, rebooting to make sure
+
+      14:45: nginx didn't want to come back up cuz of a misconfiguration (??!) but that is fixed and the site appears to be working.
+
+      i believe this was a success! will see later on when i do an upgrade :)
 
 - date: 2018-11-15 19:15:00 -0500
   severity: outage
