@@ -17,8 +17,8 @@ docker-compose up -d
   - [ES documentation reference](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/disk-allocator.html)
 ```bash
 docker-compose run --rm es curl -X PUT "es:9200/statuses/_settings" \
-    -H 'Content-Type: application/json' \
-    -d'{"index.blocks.read_only_allow_delete": null}'
+  -H 'Content-Type: application/json' \
+  -d'{"index.blocks.read_only_allow_delete": null}'
 ```
 
 ### Normal maintenance
@@ -38,11 +38,9 @@ docker-compose run --rm web rails c
   - Set a long thread of replies to "unlisted"
 ```ruby
 Status.where('account_id=16064 and conversation_id=1637200
-  and in_reply_to_account_id=16064').each do |stat|
-    begin
-        stat.visibility = "unlisted"
-        stat.save!
-    end
+and in_reply_to_account_id=16064').each do |stat|
+  stat.visibility = "unlisted"
+  stat.save!
 end
 ```
   - Update stale webfingerings
@@ -58,8 +56,8 @@ end
 ```
   - Sidekiq: Clean up dead queue
 ```ruby
-query = Sidekiq::DeadSet.new
-query.select do |job|
+ds = Sidekiq::DeadSet.new
+ds.select do |job|
     job.item['class'] == 'ThreadResolveWorker' ||
     job.item['class'] == 'ResolveAccountWorker' ||
     job.item['class'] == 'LinkCrawlWorker' ||
@@ -70,20 +68,16 @@ end.map(&:delete)
 ```ruby
 ds = Sidekiq::DeadSet.new
 ds.each do |job|
-    begin
-        job.retry
-        sleep 1
-    end
+  job.retry
+  sleep 1
 end
 ```
   - Sidekiq: Retry all jobs for a specific instance
 ```ruby
 rs = Sidekiq::RetrySet.new
 rs.select {|j| j.value.include? "https://awoo.space"}.each do |job|
-    begin
-        job.retry
-        sleep 1
-    end
+  job.retry
+  sleep 1
 end
 ```
 
