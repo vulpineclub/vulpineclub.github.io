@@ -1,3 +1,7 @@
+- date: 2018-11-30 22:05:00 -0500
+  severity: upgrade
+  summary: actually deployed prod-20181130-01 again... forgot that i still had automated builds turned on, whoooops
+
 - date: 2018-11-30 21:35:00 -0500
   severity: upgrade
   summary: deployed prod-20181130-01
