@@ -1,3 +1,7 @@
+- date: 2018-11-30 21:35:00 -0500
+  severity: upgrade
+  summary: deployed prod-20181130-01
+
 - date: 2018-11-26 17:30:00 -0500
   severity: upgrade
   summary: deployed prod-20181126-01
