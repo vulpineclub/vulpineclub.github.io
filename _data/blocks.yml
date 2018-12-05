@@ -213,3 +213,14 @@
   reason: white supremacist haven
   link: https://witches.live/@afroSwampMonster/101064175183811096
   
+- domain: humblr.social
+  severity: nomedia
+  date: 2018-12-04
+  reason: untagged porn with public visibility
+  link: https://vulpine.club/@mxsparks_afterlight/101185602714274970
+
+- domain: greenlifeplus.net
+  severity: suspend
+  date: 2018-12-04
+  reason: Follow bots will be blocked on sight.
+  link: https://deadinsi.de/@sascha/101184531717262932
