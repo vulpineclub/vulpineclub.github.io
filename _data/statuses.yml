@@ -12,6 +12,8 @@
 
       23:38: booting........
 
+      23:41: things are starting up.  pre-emptively fixing elasticsearch :)
+
 - date: 2018-12-02 18:00:00 -0500
   severity: brief
   summary: |
