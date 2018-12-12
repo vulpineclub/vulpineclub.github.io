@@ -1,6 +1,6 @@
 - date: 2018-12-10 23:15:00 -0500
   severity: outage
-  status: active
+  status: resolved
   summary: |
       disk filled up, oops
 
@@ -13,6 +13,8 @@
       23:38: booting........
 
       23:41: things are starting up.  pre-emptively fixing elasticsearch :)
+
+      23:50: everything's cool
 
 - date: 2018-12-02 18:00:00 -0500
   severity: brief
