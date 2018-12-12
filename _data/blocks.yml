@@ -218,3 +218,9 @@
   date: 2018-12-04
   reason: Follow bots will be blocked on sight.
   link: https://deadinsi.de/@sascha/101184531717262932
+
+- domain: bitcoinhackers.org
+  severity: suspend
+  date: 2018-12-11
+  reason: no admin contact information, no ToS, and at least one user that's enjoying that
+  link: https://bitcoinhackers.org/@Shekelcoin
