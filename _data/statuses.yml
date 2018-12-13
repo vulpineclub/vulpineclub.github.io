@@ -1,6 +1,9 @@
 - date: 2018-12-12 22:50:00 -0500
-  severity: upgrade
-  summary: deployed prod-20181212-01, which has a possible fix for bridge.joinmastodon.org not working w/ vulpine.club
+  severity: outage
+  summary: |
+      22:50: deployed prod-20181212-01, which has a possible fix for bridge.joinmastodon.org not working w/ vulpine.club
+
+      23:05: that thing docker was doing last month is happening again, o no.  system is back up and working good, will investigate further at some later time :)
 
 - date: 2018-12-10 23:15:00 -0500
   severity: outage
