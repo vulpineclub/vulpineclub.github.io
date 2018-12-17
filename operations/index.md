@@ -54,7 +54,7 @@ Account.where('last_webfingered_at < ?', 1.day.ago).each do |acct|
     end
 end
 ```
-  - Sidekiq: Clean up dead queue
+  - Sidekiq: Clean up dead queue (old)
 ```ruby
 ds = Sidekiq::DeadSet.new
 ds.select do |job|
@@ -64,7 +64,11 @@ ds.select do |job|
     job.item['error_class'] == 'ActiveRecord::RecordNotFound'
 end.map(&:delete)
 ```
-  - Sidekiq: Retry all dead jobs
+  - Sidekiq: Clean up dead queue
+```bash
+docker-compose run --rm tootctl vulpine skclean
+```
+  - Sidekiq: Retry all dead jobs (old)
 ```ruby
 ds = Sidekiq::DeadSet.new
 ds.each do |job|
@@ -72,13 +76,21 @@ ds.each do |job|
   sleep 1
 end
 ```
-  - Sidekiq: Retry all jobs for a specific instance
+  - Sidekiq: Retry all dead jobs
+```bash
+docker-compose run --rm tootctl vulpine sknecro
+```
+  - Sidekiq: Retry all jobs for a specific instance (old)
 ```ruby
 rs = Sidekiq::RetrySet.new
 rs.select {|j| j.value.include? "https://awoo.space"}.each do |job|
   job.retry
   sleep 1
 end
+```
+  - Sidekiq: Retry all jobs for a specific instance
+```bash
+docker-compose run --rm tootctl vulpine skpush example.com
 ```
 
 ## Projects
