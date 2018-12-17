@@ -66,7 +66,7 @@ end.map(&:delete)
 ```
   - Sidekiq: Clean up dead queue
 ```bash
-docker-compose run --rm tootctl vulpine skclean
+docker-compose run --rm web tootctl vulpine skclean
 ```
   - Sidekiq: Retry all dead jobs (old)
 ```ruby
@@ -78,7 +78,7 @@ end
 ```
   - Sidekiq: Retry all dead jobs
 ```bash
-docker-compose run --rm tootctl vulpine sknecro
+docker-compose run --rm web tootctl vulpine sknecro
 ```
   - Sidekiq: Retry all jobs for a specific instance (old)
 ```ruby
@@ -90,7 +90,7 @@ end
 ```
   - Sidekiq: Retry all jobs for a specific instance
 ```bash
-docker-compose run --rm tootctl vulpine skpush example.com
+docker-compose run --rm web tootctl vulpine skpush example.com
 ```
 
 ## Projects
