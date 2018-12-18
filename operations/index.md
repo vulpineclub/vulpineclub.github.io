@@ -80,6 +80,10 @@ end
 ```bash
 docker-compose run --rm web tootctl vulpine sknecro
 ```
+  - Sidekiq: See a report of deliveries in the retry queue
+```bash
+docker-compose run --rm web tootctl vulpine skdomains
+```
   - Sidekiq: Retry all jobs for a specific instance (old)
 ```ruby
 rs = Sidekiq::RetrySet.new
