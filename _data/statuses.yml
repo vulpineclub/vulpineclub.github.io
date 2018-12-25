@@ -1,11 +1,14 @@
-- date: 2018-12-24 19:25:00 -0500
-  severity: outage
-  status: active
-  summary: ugh, tried something to fix the previous problem, f'd the entire stack again.  rebooting.
-
 - date: 2018-12-24 19:05:00 -0500
   severity: outage
-  summary: deployed prod-20181224-01. this broke docker and/or the kernel again. sigh. reboot is complete as of 19:20.
+  status: active
+  summary: |
+      19:05: deployed prod-20181224-01. this broke docker and/or the kernel again. sigh. reboot is complete as of 19:20.
+
+      19:25: ugh, tried something to fix the previous problem, f'd the entire stack again.  rebooting.
+
+      19:45: okay i think everything is okay for now... had to fix up a couple loose ends, but we're... up!  ish!  kinda!!
+
+      still dunno what's going on :( ... i have upgraded to a very latest kernel, tho, let's see if this fixes something.
 
 - date: 2018-12-12 22:50:00 -0500
   severity: outage
