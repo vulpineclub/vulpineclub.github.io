@@ -31,10 +31,6 @@ incident: if there's a long pile o' crap to read, put it in _statuses/2018-09-23
 status: 'active' makes it show as an active issue
 -->
 
-<!--
-Last known production tag: _data/sitedata.yml, the "production" variable
--->
-
 {% assign statuses = site.data.statuses | sort: 'date' | reverse %}
 {% assign actives = statuses | where:"status","active" %}
 
@@ -53,8 +49,6 @@ This page knows of no reason why everything shouldn't be working fine.
 
 <small>
 Page last rendered: {{ site.time | date: "%Y-%m-%d %H:%M:%S %z" }}
-<br/>
-Last known production tag: [{{ site.data.sitedata.production }}](https://github.com/vulpineclub/mastodon/releases/tag/{{ site.data.sitedata.production }})
 </small>
 
 ### Recent incidents

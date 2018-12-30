@@ -23,8 +23,6 @@ This is a collection of various information about the vulpine.club project, most
 
 System status: {%- include statusbadge.md %}
 
-Current production build: [{{ site.data.sitedata.production }}](https://github.com/vulpineclub/mastodon/releases/tag/{{ site.data.sitedata.production }})
-
 - [Blocked Instances list]({% link blocklist.md %}) - last updated: {{ newest_block.date }}
 - [Custom Emoji list](https://emojos.in/vulpine.club) (from emojos.in)
   - Custom emoji contributions are welcome!  E-mail to `admins` at `vulpine.club`, be sure to mention who you are and what you'd like the shortcode to be :)
