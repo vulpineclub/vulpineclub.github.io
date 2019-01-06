@@ -1,3 +1,17 @@
+- date: 2019-01-06 09:35:00 -0800
+  severity: outage
+  status: resolved
+  summary: |
+      during work to improve system reliability and monitoring, everything was broken for a short period of time.
+
+      09:35: web services (API, streaming) offline
+
+      10:00: web services back online, background processing (Sidekiq) still offline
+
+      10:45: background processing back online, handling backlog
+
+      11:00: everything back to real time!
+
 - date: 2018-12-30 10:30:00 -0800
   severity: upgrade
   status: resolved
