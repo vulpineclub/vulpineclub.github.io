@@ -230,3 +230,15 @@
   date: 2019-01-11
   reason: domain name says it all, really
   link: https://vulpine.club/@vulpineclub/101400122085582558
+
+- domain: neckbeard.xyz
+  severity: suspend
+  date: 2019-01-15
+  reason: successor instance to feminism.lgbt, which was suspended for violating its *registrar's* ToS
+  link: https://neckbeard.xyz/sjw
+
+- domain: wagesofsinisdeath.com
+  severity: suspend
+  date: 2019-01-15
+  reason: instance admin is either an actual nazi or likes to joke about being one
+  link: https://wagesofsinisdeath.com/notice/415468
