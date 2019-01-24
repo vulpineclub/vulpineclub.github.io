@@ -248,4 +248,9 @@
   date: 2019-01-21
   reason: transmisic single-user/single-issue instance
   link: https://boop.link/notice/18500
-  
+
+- domain: anime.website
+  severity: silence/nomedia
+  date: 2019-01-24
+  reason: asshat ratio too high
+  link: https://vulpine.club/@vulpineclub/101472825008995710
