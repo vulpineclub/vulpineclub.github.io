@@ -260,3 +260,9 @@
   date: 2019-02-24
   reason: instance admin is a self-styled "white nazi knight"
   link: https://nomoresha.me/users/xeno
+
+- domain: fedi.z0ne.moe
+  severity: silence
+  date: 2019-02-24
+  reason: harassment by instance admin
+  link: https://vulpine.club/@vulpineclub/101648895955757875
