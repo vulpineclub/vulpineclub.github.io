@@ -254,3 +254,9 @@
   date: 2019-01-24
   reason: asshat ratio too high
   link: https://vulpine.club/@vulpineclub/101472825008995710
+
+- domain: nomoresha.me
+  severity: suspend
+  date: 2019-02-24
+  reason: instance admin is a self-styled "white nazi knight"
+  link: https://nomoresha.me/users/xeno
