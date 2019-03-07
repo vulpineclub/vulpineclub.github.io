@@ -1,6 +1,6 @@
 ---
 layout: default
-title: instance blacklist
+title: instance blocklist
 permalink: /blocklist
 ---
 
