@@ -296,3 +296,15 @@
   date: 2019-03-17
   reason: large amounts of untagged NSFW
   link: https://vulpine.club/@vulpineclub/101774753961371093
+
+- domain: pl.pube.tk
+  severity: suspend
+  date: 2019-03-24
+  reason: their CoC bans "homosexual activity," so we're just helping them out
+  link: https://vulpine.club/@vulpineclub/101807991046516994
+
+- domain: daffodil-11.org
+  severity: suspend
+  date: 2019-03-24
+  reason: single-user instance running a followbot
+  link: https://vulpine.club/@vulpineclub/101807991046516994
