@@ -5,11 +5,11 @@ title: vulpine.club age policy
 
 ## vulpine.club age policy
 
-| Last updated | 2019-04-14 |
-| Status | published |
-| Author | vulpine.club leadership (mailto:admins@vulpine.club) |
-| Announcement Date | 2019-04-16 |
-| Enforcement Date | 2019-04-23 |
+| Last updated          | 2019-04-14 |
+| Status                | published |
+| Author                | vulpine.club leadership <admins@vulpine.club> |
+| Announcement Date     | 2019-04-16 |
+| Enforcement Date      | 2019-04-23 |
 
 ### Scope
 This document applies to all vulpine.club users, present and future, as of the Enforcement Date in the header of this document.
@@ -24,9 +24,9 @@ After the Enforcement Date has arrived, users under 18 will have their account s
 ### Resources
 
 #### Brief list of non-18+ instances
-* mastodon.social
-* meow.social
-* sergal.org
+* [mastodon.social](https://mastodon.social/)
+* [meow.social](https://meow.social/)
+* [sergal.org](https://sergal.org/)
 
 ### Rationale
 The patronizing legalese is that vulpine.club hosts “content harmful to minors,” but the plain English is that there’s quite a bit of, ahem, ambient horny-on-main around here. And when you (as a community) start mixing sex into the inevitable messed-up power dynamics between kids and older folks, you end up in A Very Bad Situation Very Quickly -- not bad as in “someone gets arrested,” but Bad as in “someone gets their life ruined through years of abuse.” The admins here are volunteers; we don’t have the technical resources (or the spoons) to establish a non-lewd zone or enforce policies about sharing IRL contact info, so … here we are.
