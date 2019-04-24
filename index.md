@@ -32,6 +32,8 @@ System status: {%- include statusbadge.md %}
         - Please prefix the filenames with something unique to avoid namespace conflicts and to aid sorting (e.g. `:rey_smirk:`)
 - [Financial Information]({% link financial/index.md %})
 - [Local Features]({% link features/index.md %})
+- Policies
+  - [Age Policy]({%link policy/age-policy.md %})
 
 ## Information for Admins
 
