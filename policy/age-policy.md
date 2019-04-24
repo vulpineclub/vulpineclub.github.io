@@ -5,15 +5,11 @@ title: vulpine.club age policy
 
 ## vulpine.club age policy
 
-Last updated: 2019-04-14
-
-Status: published
-
-Author: vulpine.club leadership (mailto:admins@vulpine.club)
-
-Announcement Date: 2019-04-16
-
-Enforcement Date: 2019-04-23
+| Last updated | 2019-04-14 |
+| Status | published |
+| Author | vulpine.club leadership (mailto:admins@vulpine.club) |
+| Announcement Date | 2019-04-16 |
+| Enforcement Date | 2019-04-23 |
 
 ### Scope
 This document applies to all vulpine.club users, present and future, as of the Enforcement Date in the header of this document.
