@@ -308,3 +308,39 @@
   date: 2019-03-24
   reason: single-user instance running a followbot
   link: https://vulpine.club/@vulpineclub/101807991046516994
+
+- domain: socialnetwork.ninja
+  severity: suspend
+  date: 2019-04-23
+  reason: single-user instance run by some cop
+  link: https://vulpine.club/@vulpineclub/102114494723724019
+  
+- domain: social.librem.one
+  severity: suspend
+  date: 2019-05-07
+  reason: prevents users from reporting abuse
+  link: https://vulpine.club/@vulpineclub/102057624054868836
+
+- domain: pl.765racing.com
+  severity: suspend
+  date: 2019-05-14
+  reason: instance admin is a "national socialist"
+  link: https://vulpine.club/@vulpineclub/102114494723724019
+  
+- domain: xn--6r8h.tk
+  severity: suspend
+  date: 2019-05-17
+  reason: advocating white supremacy
+  link: https://vulpine.club/@vulpineclub/102114494723724019
+  
+- domain: aria.company
+  severity: suspend
+  date: 2019-05-17
+  reason: the fediverse is not your personal 8chan
+  link: https://vulpine.club/@vulpineclub/102114494723724019
+
+- domain: jimlunsford.com
+  severity: suspend
+  date: 2019-05-17
+  reason: successor instance to socialnetwork.ninja
+  link: https://vulpine.club/@vulpineclub/102114494723724019
