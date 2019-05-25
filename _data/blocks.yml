@@ -344,3 +344,21 @@
   date: 2019-05-17
   reason: successor instance to socialnetwork.ninja
   link: https://vulpine.club/@vulpineclub/102114494723724019
+
+- domain: librem.one
+  severity: suspend
+  date: 2019-05-25
+  reason: see social.librem.one above
+  link: https://vulpine.club/@vulpineclub/102157806886800597
+
+- domain: socnet.supes.com
+  severity: suspend
+  date: 2019-05-25
+  reason: freezepeach
+  link: https://vulpine.club/@vulpineclub/102157815430915088
+
+- domain: mobile.co
+  severity: suspend
+  date: 2019-05-25
+  reason: freezepeach/copious bigotry, but we repeat ourselves
+  link: https://vulpine.club/@vulpineclub/102158071680962420
