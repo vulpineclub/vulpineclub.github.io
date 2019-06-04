@@ -1,12 +1,14 @@
 - date: 2019-06-04 11:55:00 -0400
   severity: performance
-  status: active
+  status: resolved
   summary: |
       High CPU Steal% is leading to performance issues.
 
       13:40: Scaled sidekiqs from 2 to 1 to reduce CPU pressure on web/streaming
 
       13:45: Linode tkt 12012372 open
+
+      15:40: We've been moved to another host (live migration!!) and everything should be better.
 
 - date: 2019-01-15 21:40:00 -0500
   severity: upgrade
