@@ -362,3 +362,8 @@
   date: 2019-05-25
   reason: freezepeach/copious bigotry, but we repeat ourselves
   link: https://vulpine.club/@vulpineclub/102158071680962420
+
+- domain: libre.tube
+  severity: suspend
+  date: TBD
+  reason: hosting murder videos, racist content, ...
