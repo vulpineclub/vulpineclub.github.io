@@ -398,3 +398,18 @@
   date: 2019-06-19
   reason: haven for white supremacy & general deplorability
   link: https://vulpine.club/@vulpineclub/102301634244565563
+
+- domain: gab.best
+  severity: suspend
+  date: 2019-07-01
+  reason: we don't federate with Gab instances
+
+- domain: exited.eu
+  severity: suspend
+  date: 2019-07-01
+  reason: we don't federate with Gab instances
+
+- domain: zaitcev.nu
+  severity: suspend
+  date: 2019-07-01
+  reason: we don't federate with Gab instances
