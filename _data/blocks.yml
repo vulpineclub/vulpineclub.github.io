@@ -413,3 +413,9 @@
   severity: suspend
   date: 2019-07-01
   reason: we don't federate with Gab instances
+
+- domain: rcsocial.net
+  severity: suspend
+  date: 2019-07-04
+  reason: incompatible TOS (“Christian free speech”)
+  link: https://using.rcsocial.net/
