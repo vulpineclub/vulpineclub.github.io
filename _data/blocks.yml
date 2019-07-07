@@ -419,3 +419,27 @@
   date: 2019-07-04
   reason: incompatible TOS (“Christian free speech”)
   link: https://using.rcsocial.net/
+
+- domain: catgirl.life
+  severity: suspend
+  date: 2019-07-07
+  reason: sealioning & pepes from instance admin
+  link: https://catgirl.life/notes/7to7j9wua8
+
+- domain: fosstodon.org
+  severity: suspend
+  date: 2019-07-07
+  reason: they're offended by snowflakes like us
+  link: https://vulpine.club/@mxsparks/102390688188068878
+
+- domain: networked.space
+  severity: suspend
+  date: 2019-07-07
+  reason: "low key freeze peach," in their own words
+  link: https://networked.space/notice/9kaYITQnk0yc1B0yjQ
+
+- domain: afterlife.masto.host
+  severity: suspend
+  date: 2019-07-07
+  reason: single user instance created for block evasion
+  link: https://twitter.com/Coravinia/status/988749169614606336
