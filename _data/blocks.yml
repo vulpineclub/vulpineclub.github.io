@@ -443,3 +443,8 @@
   date: 2019-07-07
   reason: single user instance created for block evasion
   link: https://twitter.com/Coravinia/status/988749169614606336
+
+- domain: pl.wowana.me
+  severity: suspend
+  date: 2019-07-10
+  reason: single user instance, block evasion
