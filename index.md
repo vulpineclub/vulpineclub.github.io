@@ -22,6 +22,7 @@ This is a collection of various information about the vulpine.club project, most
 ## Supporting Vulpine Club
 
 - [One-time Credit Card payments](https://owo-group.square.site/product/vulpineclub/5) via the [OwO Group LLC](https://owo-group.square.site/) store
+- [Patreon page](https://www.patreon.com/vulpineclub) - note that the rewards aren't really being rewarded right now, sorry
 
 ## Information for Members
 
