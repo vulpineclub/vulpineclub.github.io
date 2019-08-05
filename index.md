@@ -19,6 +19,10 @@ This is a collection of various information about the vulpine.club project, most
   <br/>
   <em>Each of these creates its own login session, separate from the other links. This is useful for logging into multiple accounts simultaneously, e.g. a main account and a lewd account.</em>
 
+## Supporting Vulpine Club
+
+- [One-time Credit Card payments](https://owo-group.square.site/product/vulpineclub/5) via the [OwO Group LLC](https://owo-group.square.site/) store
+
 ## Information for Members
 
 System status: {%- include statusbadge.md %}
