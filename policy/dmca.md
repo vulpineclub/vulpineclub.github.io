@@ -1,6 +1,7 @@
 ---
 layout: default
 title: vulpine.club Digital Millennium Copyright Act (DMCA) Notice
+description: How to report copyright violations under the Digital Millennium Copyright Act
 ---
 
 ## vulpine.club Digital Millennium Copyright Act (DMCA) Notice
