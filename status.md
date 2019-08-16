@@ -2,6 +2,7 @@
 layout: default
 title: system otterational status
 permalink: /status
+description: Summaries of any outage that lasted long enough that someone logged it.
 ---
 
 <!--

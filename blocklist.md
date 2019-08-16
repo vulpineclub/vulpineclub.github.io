@@ -2,6 +2,7 @@
 layout: default
 title: instance blocklist
 permalink: /blocklist
+description: A list of instances we've blocked, and the reasons why.
 ---
 
 <!--

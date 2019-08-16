@@ -1,6 +1,7 @@
 ---
 layout: default
 title: vulpine.club age policy
+description: Users must be 18 years of age or older.
 ---
 
 ## vulpine.club age policy

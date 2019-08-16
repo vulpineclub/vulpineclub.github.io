@@ -1,6 +1,7 @@
 ---
 layout: default
 title: operational resources
+description: how to unfuck the site
 ---
 
 ## Quick reference
