@@ -44,6 +44,7 @@ System status: {%- include statusbadge.md %}
 - [Local Features]({% link features/index.md %})
 - Policies
   - [Age Policy]({%link policy/age-policy.md %})
+  - [DMCA Policy]({%link policy/dmca.md %})
 
 ## Information for Admins
 
