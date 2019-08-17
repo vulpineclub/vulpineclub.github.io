@@ -6,8 +6,8 @@ description: How to report copyright violations under the Digital Millennium Cop
 
 ## vulpine.club Digital Millennium Copyright Act (DMCA) Notice
 
-| Last updated  | 2019-09-16 |
-| Status        | draft |
+| Last updated  | 2019-09-17 |
+| Status        | published |
 | Author        | Rey Tucker, DMCA Designated Agent, OwO Group LLC <dmca@owogroupllc.com> |
 
 ### Scope
