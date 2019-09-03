@@ -1,7 +1,11 @@
 - date: 2019-09-03 14:00:00 -0400
   severity: upgrade
   summary: |
-      Database migration is in progress, as part of an upgrade to prod-20190903-01.
+      A lengthy database migration is in progress, as part of an upgrade to prod-20190903-01.
+
+      14:15: still deploying... there are new and exciting database indices undergoing creation at this time, causing some transient performance/availability issues
+
+      14:21: Load shedding in progress... I've turned off Sidekiq (background processing) and Streaming (the thing which feeds new posts directly into your eyeballs)
 
 - date: 2019-06-04 11:55:00 -0400
   severity: performance
