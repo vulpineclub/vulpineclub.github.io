@@ -1,5 +1,6 @@
 - date: 2019-09-03 14:00:00 -0400
   severity: upgrade
+  status: active
   summary: |
       A lengthy database migration is in progress, as part of an upgrade to prod-20190903-01.
 
