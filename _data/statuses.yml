@@ -8,6 +8,8 @@
 
       14:21: Load shedding in progress... I've turned off Sidekiq (background processing) and Streaming (the thing which feeds new posts directly into your eyeballs)
 
+      14:45: We're back!  Monitoring...
+
 - date: 2019-06-04 11:55:00 -0400
   severity: performance
   status: resolved
