@@ -3,6 +3,11 @@
   status: active
   summary: A host migration is in progress, to move us to a less-congested physical server.  We'll be back soon.
 
+- date: 2019-10-17 13:00:00 -0400
+  severity: degraded performance
+  status: active
+  summary: High CPU Steal% is causing some performance issues.  A ticket is open with our VPS provider to set up a migration to a less-congested host.
+
 - date: 2019-09-03 14:00:00 -0400
   severity: mostly down
   status: resolved
