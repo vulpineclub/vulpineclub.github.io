@@ -24,7 +24,8 @@ This is a collection of various information about the vulpine.club project, most
 As of July 2019, our monthly expenses are $50/mo for the Linode server we're hosted on, plus about $25/mo for Amazon Web Services. Our monthly income is about $25/mo via Patreon, with the rest being covered by Rey and misc one-off donations.
 
 - [One-time Credit Card payments](https://owo-group.square.site/product/vulpineclub/5) via the [OwO Group LLC](https://owo-group.square.site/) store
-- [Patreon page](https://www.patreon.com/vulpineclub) - note that the rewards aren't really being rewarded right now, sorry
+- [OpenCollective](https://opencollective.com/vulpineclub) -- one-time and recurring contributions
+- [Patreon](https://www.patreon.com/vulpineclub) -- recurring monthly contributions
 - ACH, TransferWise, wire transfer, etc: Contact [@rey@vulpine.club](https://vulpine.club/@rey) for account information
 
 We're working on other options, poke Rey with any requests :)
