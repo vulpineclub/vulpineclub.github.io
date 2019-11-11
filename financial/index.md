@@ -7,6 +7,8 @@ title: financial information
 
 This page details some of the financials of vulpine.club.
 
+**This information is out-of-date**: Please see https://opencollective.com/vulpineclub for more up-to-date information!
+
 ## Expenses Overview
 
 As of September 23, 2018, the forecasted operational expenses for vulpine.club are about $1200/yr, or $100/mo.
