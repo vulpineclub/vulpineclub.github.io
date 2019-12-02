@@ -1,7 +1,7 @@
-- date: 2019-12-01 00:00:00 +0000
+- date: 2019-12-01 23:00:00 +0000
   severity: partial outage
-  status: active
-  summary: uploading images is currently failing... investigating!  -rey
+  status: resolved
+  summary: Uploading media assets was failing (and receiving posts with media attachments was delayed in general) due to an upstream issue. This should be resolved but we are continuing to monitor. -rey
 
 - date: 2019-10-17 13:55:00 -0400
   severity: outage
