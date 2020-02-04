@@ -279,12 +279,6 @@
   reason: permits posting of media that is illegal in vulpine.club's jurisdiction
   link: https://pleroma.weirdart.space/objects/be3cbced-67a7-441c-be3f-21ffeafc1e54
 
-- domain: gulp.cafe
-  severity: silence
-  date: 2019-03-06
-  reason: instance admin being a jerk to strangers
-  link: https://gulp.cafe/@Taris/101694464282855885
-
 - domain: waifuappreciation.club
   severity: suspend
   date: 2019-03-12
