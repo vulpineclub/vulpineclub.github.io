@@ -17,6 +17,10 @@ docker-compose up -d
 - ElasticSearch turtles when disk exceeds 85%
   - [ES documentation reference](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/disk-allocator.html)
 ```bash
+docker-compose run --rm es curl -X PUT "es:9200/_settings" \
+  -H 'Content-Type: application/json' \
+  -d'{"index.blocks.read_only_allow_delete": null}'
+
 docker-compose run --rm es curl -X PUT "es:9200/statuses/_settings" \
   -H 'Content-Type: application/json' \
   -d'{"index.blocks.read_only_allow_delete": null}'
