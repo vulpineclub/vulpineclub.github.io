@@ -21,6 +21,7 @@ docker-compose run --rm es curl -X PUT "es:9200/_settings" \
   -H 'Content-Type: application/json' \
   -d'{"index.blocks.read_only_allow_delete": null}'
 ```
+
 ```bash
 docker-compose run --rm es curl -X PUT "es:9200/statuses/_settings" \
   -H 'Content-Type: application/json' \
